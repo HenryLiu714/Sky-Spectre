@@ -50,7 +50,11 @@ int main () {
         // Display pieces
         display::draw_board(board, chess_pieces);
 
-        re::display_bitboard(moves::get_white_pawn_attacks(30));
+        std::vector<u64> sliding_attacks = moves::find_sliding_attacks(27, (1ull << 27) | (1ull << 45) | (1ull << 30) | (1ull << 41), (1ull << 45) | (1ull << 41), (1ull << 30));
+
+        for (u64 attack : sliding_attacks) {
+            re::display_bitboard(attack);
+        }
 
         // Display on click
         //display::display_possible_moves_from_click(board);

@@ -49,8 +49,8 @@ namespace moves {
      * @return Vector<XRay_Attack> containing all xray attacks on the king_square
     */
     std::vector<XRay_Attack> find_xray_attacks(char king_square, u64 blockers, u64 all_pieces, u64 bQ_squares, u64 rQ_squares);
-    
-    std::vector<re::Move> get_moves_from_piece(re::Board& board, int space);
+
+    std::vector<u64> find_sliding_attacks(char king_square, u64 all_pieces, u64 bQ_squares, u64 rQ_squares);
 
     std::vector<re::Move> get_all_legal_moves(re::Board& board);
 };

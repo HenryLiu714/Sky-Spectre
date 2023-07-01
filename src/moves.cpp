@@ -316,10 +316,89 @@ namespace moves {
         return xray_attacks;
     }
     
-    std::vector<re::Move> get_moves_from_piece(re::Board& board, int space) {
-        std::vector<re::Move> possible_moves;
+    std::vector<u64> find_sliding_attacks(char king_square, u64 all_pieces, u64 bQ_squares, u64 rQ_squares) {
+        std::vector<u64> sliding_attacks;
 
-        return possible_moves;
+        u64 potential_bQ_attacks = get_bishop_attacks(king_square, all_pieces);
+        u64 potential_rQ_attacks = get_rook_attacks(king_square, all_pieces);
+
+        if (potential_bQ_attacks & bQ_squares) {
+            if (re::get_sliding_bitmask(king_square, re::NORTHEAST) & all_pieces) {
+                char attack_position = re::bitscan_forward(re::get_sliding_bitmask(king_square, re::NORTHEAST) & all_pieces);
+
+                if ((1ull << attack_position) & bQ_squares) {
+                    u64 attack_ray = re::get_sliding_bitmask(king_square, re::NORTHEAST) & ~re::get_sliding_bitmask(attack_position, re::NORTHEAST);
+                    sliding_attacks.push_back(attack_ray);
+                }
+            }
+
+            if (re::get_sliding_bitmask(king_square, re::NORTHWEST) & all_pieces) {
+                char attack_position = re::bitscan_forward(re::get_sliding_bitmask(king_square, re::NORTHWEST) & all_pieces);
+
+                if ((1ull << attack_position) & bQ_squares) {
+                    u64 attack_ray = re::get_sliding_bitmask(king_square, re::NORTHWEST) & ~re::get_sliding_bitmask(attack_position, re::NORTHWEST);
+                    sliding_attacks.push_back(attack_ray);
+                }
+            }
+
+            if (re::get_sliding_bitmask(king_square, re::SOUTHEAST) & all_pieces) {
+                char attack_position = re::bitscan_reverse(re::get_sliding_bitmask(king_square, re::SOUTHEAST) & all_pieces);
+
+                if ((1ull << attack_position) & bQ_squares) {
+                    u64 attack_ray = re::get_sliding_bitmask(king_square, re::SOUTHEAST) & ~re::get_sliding_bitmask(attack_position, re::SOUTHEAST);
+                    sliding_attacks.push_back(1ull);
+                }
+            }
+
+            if (re::get_sliding_bitmask(king_square, re::SOUTHWEST) & all_pieces) {
+                char attack_position = re::bitscan_reverse(re::get_sliding_bitmask(king_square, re::SOUTHWEST) & all_pieces);
+
+                if ((1ull << attack_position) & bQ_squares) {
+                    u64 attack_ray = re::get_sliding_bitmask(king_square, re::SOUTHWEST) & ~re::get_sliding_bitmask(attack_position, re::SOUTHWEST);
+                    sliding_attacks.push_back(1ull);
+                }
+            }
+        }
+
+        if (potential_rQ_attacks & rQ_squares) {
+            if (re::get_sliding_bitmask(king_square, re::NORTH) & all_pieces) {
+                char attack_position = re::bitscan_forward(re::get_sliding_bitmask(king_square, re::NORTH) & all_pieces);
+
+                if ((1ull << attack_position) & rQ_squares) {
+                    u64 attack_ray = re::get_sliding_bitmask(king_square, re::NORTH) & ~re::get_sliding_bitmask(attack_position, re::NORTH);
+                    sliding_attacks.push_back(attack_ray);
+                }
+            }
+
+            if (re::get_sliding_bitmask(king_square, re::EAST) & all_pieces) {
+                char attack_position = re::bitscan_forward(re::get_sliding_bitmask(king_square, re::EAST) & all_pieces);
+
+                if ((1ull << attack_position) & rQ_squares) {
+                    u64 attack_ray = re::get_sliding_bitmask(king_square, re::EAST) & ~re::get_sliding_bitmask(attack_position, re::EAST);
+                    sliding_attacks.push_back(attack_ray);
+                }
+            }
+
+            if (re::get_sliding_bitmask(king_square, re::SOUTH) & all_pieces) {
+                char attack_position = re::bitscan_reverse(re::get_sliding_bitmask(king_square, re::SOUTH) & all_pieces);
+
+                if ((1ull << attack_position) & rQ_squares) {
+                    u64 attack_ray = re::get_sliding_bitmask(king_square, re::SOUTH) & ~re::get_sliding_bitmask(attack_position, re::SOUTH);
+                    sliding_attacks.push_back(attack_ray);
+                }
+            }
+
+            if (re::get_sliding_bitmask(king_square, re::WEST) & all_pieces) {
+                char attack_position = re::bitscan_reverse(re::get_sliding_bitmask(king_square, re::WEST) & all_pieces);
+
+                if ((1ull << attack_position) & rQ_squares) {
+                    u64 attack_ray = re::get_sliding_bitmask(king_square, re::WEST) & ~re::get_sliding_bitmask(attack_position, re::WEST);
+                    sliding_attacks.push_back(attack_ray);
+                }
+            }
+        }
+    
+        return sliding_attacks;
     }
 
     std::vector<re::Move> get_all_legal_moves(re::Board& board) {

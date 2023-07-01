@@ -1,6 +1,9 @@
 {
     "cmake.sourceDirectory": "C:/Stuff/Programming/Cpp/chess_engine3",
     "files.associations": {
-        "new": "cpp"
+        "new": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
     }
 }
