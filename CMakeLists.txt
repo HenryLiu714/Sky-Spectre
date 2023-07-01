@@ -28,7 +28,8 @@ set(SOURCE_FILES
     src/main.cpp
     src/display.cpp
     src/moves.cpp
-    src/references.cpp)
+    src/references.cpp
+    src/evaluation.cpp)
 
 add_executable(${PROJECT_NAME}  ${SOURCE_FILES})
 #set(raylib_VERBOSE 1)

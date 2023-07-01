@@ -15,15 +15,11 @@ const int screen_width = 1080;
 const int screen_height = 720;
 const int fps = 30;
 
-const int board_num_squares = 120;
-const int board_start = 21;
-const int board_end = 99;
-
 const int box_size = screen_height / 8;
 
 namespace re {
     enum Pieces {EMPTY, PAWN, KNIGHT, BISHOP, ROOK, QUEEN, KING};
-    enum Side {NEITHER=0, W=16, B=32, BOTH=48}; // can use mod 16 to just find piece, can use / 16 to find side
+    enum Side {NEITHER=0, W=16, B=32, BOTH=48}; // can use mod 16 to just find piece, can use / 16 to find side 10001
     enum Squares {
         a1, b1, c1, d1, e1, f1, g1, h1,
         a2, b2, c2, d2, e2, f2, g2, h2,
@@ -104,6 +100,21 @@ namespace re {
         u64 all_piece_locations = 0ull;
 
         void update_with_fen(char* fen_string) {
+            bitboards = {
+            {17, 0},
+            {18, 0},
+            {19, 0},
+            {20, 0},
+            {21, 0},
+            {22, 0},
+            {33, 0},
+            {34, 0},
+            {35, 0},
+            {36, 0},
+            {37, 0},
+            {38, 0}
+            };
+
             std::string row_string = "";
             std::vector<std::string> row_strings;
 
@@ -304,6 +315,15 @@ namespace re {
     u64 get_knight_bitmask(char square);
     u64 get_king_bitmask(char square);
     u64 get_sliding_bitmask(char square, char direction);
+
+    // Other useful functions
+
+    /**
+     * Used to find the team
+     * Example input: (W | PAWN)
+     * Example return: W
+    */
+    char get_team(char piece); 
 }
 
 #endif

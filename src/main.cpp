@@ -6,6 +6,7 @@
 #include "references.h"
 #include "display.h"
 #include "moves.h"
+#include "evaluation.h"
 
 Texture2D chess_pieces;
 
@@ -26,7 +27,7 @@ int main () {
 
     re::Board board;
     board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-    // board.update_with_fen((char*) "8/8/8/8/8/8/8/8 w - c6 0 1");
+    board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNB1KBNR w KQkq - 0 1");
 
     std::vector<moves::XRay_Attack> xray_attacks = moves::find_xray_attacks(9, (1ull << 27), ((1ull << 9) | (1ull << 27) | (1ull << 36)), (1ull << 36), 0);
 
@@ -50,14 +51,9 @@ int main () {
         // Display pieces
         display::draw_board(board, chess_pieces);
 
-        std::vector<u64> sliding_attacks = moves::find_sliding_attacks(27, (1ull << 27) | (1ull << 45) | (1ull << 30) | (1ull << 41), (1ull << 45) | (1ull << 41), (1ull << 30));
-
-        for (u64 attack : sliding_attacks) {
-            re::display_bitboard(attack);
-        }
-
         // Display on click
         //display::display_possible_moves_from_click(board);
+        std::cout << eval::evaluate(board) << "\n";
         
         EndDrawing(); // Ends canvas drawing
     }

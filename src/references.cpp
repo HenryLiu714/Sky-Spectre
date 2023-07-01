@@ -172,4 +172,9 @@ namespace re {
     u64 get_sliding_bitmask(char square, char direction) {
         return sliding_move_bitmasks[(int) direction][(int) square];
     }
+
+    char get_team(char piece) {
+        piece >>= 4;
+        return (piece <<= 4);
+    }
 };

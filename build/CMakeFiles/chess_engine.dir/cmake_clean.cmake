@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/chess_engine.dir/link.d"
   "CMakeFiles/chess_engine.dir/src/display.cpp.obj"
   "CMakeFiles/chess_engine.dir/src/display.cpp.obj.d"
+  "CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj"
+  "CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj.d"
   "CMakeFiles/chess_engine.dir/src/main.cpp.obj"
   "CMakeFiles/chess_engine.dir/src/main.cpp.obj.d"
   "CMakeFiles/chess_engine.dir/src/moves.cpp.obj"

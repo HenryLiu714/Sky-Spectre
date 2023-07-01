@@ -256,6 +256,30 @@ src/display.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine.dir\build.make CMakeFiles/chess_engine.dir/src/display.cpp.s
 .PHONY : src/display.cpp.s
 
+src/evaluation.obj: src/evaluation.cpp.obj
+.PHONY : src/evaluation.obj
+
+# target to build an object file
+src/evaluation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine.dir\build.make CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj
+.PHONY : src/evaluation.cpp.obj
+
+src/evaluation.i: src/evaluation.cpp.i
+.PHONY : src/evaluation.i
+
+# target to preprocess a source file
+src/evaluation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine.dir\build.make CMakeFiles/chess_engine.dir/src/evaluation.cpp.i
+.PHONY : src/evaluation.cpp.i
+
+src/evaluation.s: src/evaluation.cpp.s
+.PHONY : src/evaluation.s
+
+# target to generate assembly for a file
+src/evaluation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine.dir\build.make CMakeFiles/chess_engine.dir/src/evaluation.cpp.s
+.PHONY : src/evaluation.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -349,6 +373,9 @@ help:
 	@echo ... src/display.obj
 	@echo ... src/display.i
 	@echo ... src/display.s
+	@echo ... src/evaluation.obj
+	@echo ... src/evaluation.i
+	@echo ... src/evaluation.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
