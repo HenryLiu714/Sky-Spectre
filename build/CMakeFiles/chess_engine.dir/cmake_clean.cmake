@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/chess_engine.dir/src/moves.cpp.obj.d"
   "CMakeFiles/chess_engine.dir/src/references.cpp.obj"
   "CMakeFiles/chess_engine.dir/src/references.cpp.obj.d"
+  "CMakeFiles/chess_engine.dir/src/search.cpp.obj"
+  "CMakeFiles/chess_engine.dir/src/search.cpp.obj.d"
   "chess_engine.exe"
   "chess_engine.exe.manifest"
   "chess_engine.pdb"

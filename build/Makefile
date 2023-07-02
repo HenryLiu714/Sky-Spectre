@@ -352,6 +352,30 @@ src/references.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine.dir\build.make CMakeFiles/chess_engine.dir/src/references.cpp.s
 .PHONY : src/references.cpp.s
 
+src/search.obj: src/search.cpp.obj
+.PHONY : src/search.obj
+
+# target to build an object file
+src/search.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine.dir\build.make CMakeFiles/chess_engine.dir/src/search.cpp.obj
+.PHONY : src/search.cpp.obj
+
+src/search.i: src/search.cpp.i
+.PHONY : src/search.i
+
+# target to preprocess a source file
+src/search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine.dir\build.make CMakeFiles/chess_engine.dir/src/search.cpp.i
+.PHONY : src/search.cpp.i
+
+src/search.s: src/search.cpp.s
+.PHONY : src/search.s
+
+# target to generate assembly for a file
+src/search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine.dir\build.make CMakeFiles/chess_engine.dir/src/search.cpp.s
+.PHONY : src/search.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -385,6 +409,9 @@ help:
 	@echo ... src/references.obj
 	@echo ... src/references.i
 	@echo ... src/references.s
+	@echo ... src/search.obj
+	@echo ... src/search.i
+	@echo ... src/search.s
 .PHONY : help
 
 

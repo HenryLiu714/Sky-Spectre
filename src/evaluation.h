@@ -1,3 +1,6 @@
+#ifndef EVALUATION_H
+#define EVALUATION_H
+
 #include "references.h"
 
 namespace eval {
@@ -16,3 +19,5 @@ namespace eval {
     */
     int evaluate(re::Board& board);
 }
+
+#endif

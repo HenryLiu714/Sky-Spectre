@@ -177,4 +177,14 @@ namespace re {
         piece >>= 4;
         return (piece <<= 4);
     }
+
+    void display_move_list(std::vector<Move> move_list) {
+        std::cout << move_list.size() << "\n";
+
+        for (re::Move move : move_list) {
+            std::cout << (int) move.from << " " << (int) move.to<< "\n";
+        }
+
+        std::cout << "\n";
+    }
 };

@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Stuff/Programming/Cpp/chess_engine3/src/main.cpp" "CMakeFiles/chess_engine.dir/src/main.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/main.cpp.obj.d"
   "C:/Stuff/Programming/Cpp/chess_engine3/src/moves.cpp" "CMakeFiles/chess_engine.dir/src/moves.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/moves.cpp.obj.d"
   "C:/Stuff/Programming/Cpp/chess_engine3/src/references.cpp" "CMakeFiles/chess_engine.dir/src/references.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/references.cpp.obj.d"
+  "C:/Stuff/Programming/Cpp/chess_engine3/src/search.cpp" "CMakeFiles/chess_engine.dir/src/search.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/search.cpp.obj.d"
   "" "chess_engine.exe" "gcc" "CMakeFiles/chess_engine.dir/link.d"
   )
 

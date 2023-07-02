@@ -48,7 +48,7 @@ namespace moves {
      * @param blockers Pieces on the same team as the king on king_square
      * @return Vector<XRay_Attack> containing all xray attacks on the king_square
     */
-    std::vector<XRay_Attack> find_xray_attacks(char king_square, u64 blockers, u64 all_pieces, u64 bQ_squares, u64 rQ_squares);
+    std::unordered_map<char, u64> find_xray_attacks(char king_square, u64 blockers, u64 all_pieces, u64 bQ_squares, u64 rQ_squares);
 
     std::vector<u64> find_sliding_attacks(char king_square, u64 all_pieces, u64 bQ_squares, u64 rQ_squares);
 

@@ -101,19 +101,33 @@ namespace re {
 
         void update_with_fen(char* fen_string) {
             bitboards = {
-            {17, 0},
-            {18, 0},
-            {19, 0},
-            {20, 0},
-            {21, 0},
-            {22, 0},
-            {33, 0},
-            {34, 0},
-            {35, 0},
-            {36, 0},
-            {37, 0},
-            {38, 0}
+                {17, 0},
+                {18, 0},
+                {19, 0},
+                {20, 0},
+                {21, 0},
+                {22, 0},
+                {33, 0},
+                {34, 0},
+                {35, 0},
+                {36, 0},
+                {37, 0},
+                {38, 0}
             };
+
+            // current_turn= W;
+            // other_turn = B;
+            // castling_availability[4] = {0};
+            // en_passant_target= 0;
+            // halfmove_clock= 0;
+            // fullmove_clock= 0;
+
+            // piece_locations = {
+            //     {W, 0},
+            //     {B, 0}
+            // };
+
+            // u64 all_piece_locations = 0ull;
 
             std::string row_string = "";
             std::vector<std::string> row_strings;
@@ -324,6 +338,8 @@ namespace re {
      * Example return: W
     */
     char get_team(char piece); 
+
+    void display_move_list(std::vector<Move> move_list);
 }
 
 #endif

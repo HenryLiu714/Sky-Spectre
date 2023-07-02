@@ -159,6 +159,7 @@ namespace moves {
         return (get_bishop_attacks(square, blockers) | get_rook_attacks(square, blockers));
     }
 
+    
     u64 get_king_attacks(char square) {
         return re::get_king_bitmask(square);
     }
@@ -188,10 +189,10 @@ namespace moves {
      * @param bQ_squares Bishop and Queen locations of opponent team
      * @param rQ_squares Rook and Queen locations of opponent team
      * @param blockers Pieces on the same team as the king on king_square
-     * @return Vector<XRay_Attack> containing all xray attacks on the king_square
+     * @return unordered map containing the pinned square and the xray attack ray (possible moves)
     */
-    std::vector<XRay_Attack> find_xray_attacks(char king_square, u64 blockers, u64 all_pieces, u64 bQ_squares, u64 rQ_squares) {
-        std::vector<XRay_Attack> xray_attacks;
+    std::unordered_map<char, u64> find_xray_attacks(char king_square, u64 blockers, u64 all_pieces, u64 bQ_squares, u64 rQ_squares) {
+        std::unordered_map<char, u64> xray_attacks;
 
         // Northeast
         if (re::get_sliding_bitmask(king_square, re::NORTHEAST) & blockers) {
@@ -203,7 +204,7 @@ namespace moves {
 
                 if (bQ_squares & (1ull << pinner)) {
                     u64 attacking_ray = (re::get_sliding_bitmask(king_square, re::NORTHEAST) & ~re::get_sliding_bitmask(pinner, re::NORTHEAST));
-                    xray_attacks.push_back(XRay_Attack{pinner, potential_pinned_piece, attacking_ray});
+                    xray_attacks.insert({potential_pinned_piece, attacking_ray});
                 }
             }
         }
@@ -218,7 +219,7 @@ namespace moves {
 
                 if (bQ_squares & (1ull << pinner)) {
                     u64 attacking_ray = (re::get_sliding_bitmask(king_square, re::NORTHWEST) & ~re::get_sliding_bitmask(pinner, re::NORTHWEST));
-                    xray_attacks.push_back(XRay_Attack{pinner, potential_pinned_piece, attacking_ray});
+                    xray_attacks.insert({potential_pinned_piece, attacking_ray});
                 }
             }
         }
@@ -233,7 +234,7 @@ namespace moves {
 
                 if (bQ_squares & (1ull << pinner)) {
                     u64 attacking_ray = (re::get_sliding_bitmask(king_square, re::SOUTHEAST) & ~re::get_sliding_bitmask(pinner, re::SOUTHEAST));
-                    xray_attacks.push_back(XRay_Attack{pinner, potential_pinned_piece, attacking_ray});
+                    xray_attacks.insert({potential_pinned_piece, attacking_ray});
                 }
             }
         }
@@ -248,7 +249,7 @@ namespace moves {
 
                 if (bQ_squares & (1ull << pinner)) {
                     u64 attacking_ray = (re::get_sliding_bitmask(king_square, re::SOUTHWEST) & ~re::get_sliding_bitmask(pinner, re::SOUTHWEST));
-                    xray_attacks.push_back(XRay_Attack{pinner, potential_pinned_piece, attacking_ray});
+                    xray_attacks.insert({potential_pinned_piece, attacking_ray});
                 }
             }
         }
@@ -263,7 +264,7 @@ namespace moves {
 
                 if (bQ_squares & (1ull << pinner)) {
                     u64 attacking_ray = (re::get_sliding_bitmask(king_square, re::NORTH) & ~re::get_sliding_bitmask(pinner, re::NORTH));
-                    xray_attacks.push_back(XRay_Attack{pinner, potential_pinned_piece, attacking_ray});
+                    xray_attacks.insert({potential_pinned_piece, attacking_ray});
                 }
             }
         }
@@ -278,7 +279,7 @@ namespace moves {
 
                 if (bQ_squares & (1ull << pinner)) {
                     u64 attacking_ray = (re::get_sliding_bitmask(king_square, re::EAST) & ~re::get_sliding_bitmask(pinner, re::EAST));
-                    xray_attacks.push_back(XRay_Attack{pinner, potential_pinned_piece, attacking_ray});
+                    xray_attacks.insert({potential_pinned_piece, attacking_ray});
                 }
             }
         }
@@ -293,7 +294,7 @@ namespace moves {
 
                 if (bQ_squares & (1ull << pinner)) {
                     u64 attacking_ray = (re::get_sliding_bitmask(king_square, re::SOUTH) & ~re::get_sliding_bitmask(pinner, re::SOUTH));
-                    xray_attacks.push_back(XRay_Attack{pinner, potential_pinned_piece, attacking_ray});
+                    xray_attacks.insert({potential_pinned_piece, attacking_ray});
                 }
             }
         }
@@ -308,7 +309,7 @@ namespace moves {
 
                 if (bQ_squares & (1ull << pinner)) {
                     u64 attacking_ray = (re::get_sliding_bitmask(king_square, re::WEST) & ~re::get_sliding_bitmask(pinner, re::WEST));
-                    xray_attacks.push_back(XRay_Attack{pinner, potential_pinned_piece, attacking_ray});
+                    xray_attacks.insert({potential_pinned_piece, attacking_ray});
                 }
             }
         }
@@ -401,8 +402,132 @@ namespace moves {
         return sliding_attacks;
     }
 
+    u64 get_all_attacks(re::Board& board, char attacker_color) {
+        u64 attacks = 0ull;
+        u64 piece_locations;
+
+        if (attacker_color == re::W) {
+            piece_locations = board.bitboards[re::W | re::PAWN];
+
+            while (piece_locations) {
+                attacks |= get_white_pawn_attacks(re::bitscan_forward(piece_locations));
+                piece_locations &= piece_locations - 1;
+            }
+        }
+
+        else {
+            piece_locations = board.bitboards[re::B | re::PAWN];
+
+            while (piece_locations) {
+                attacks |= get_black_pawn_attacks(re::bitscan_forward(piece_locations));
+                piece_locations &= piece_locations - 1;
+            }
+        }
+
+        // Knights
+        piece_locations = board.bitboards[attacker_color | re::KNIGHT];
+
+        while (piece_locations) {
+            attacks |= get_knight_attacks(re::bitscan_forward(piece_locations));
+            piece_locations &= piece_locations - 1;
+        }
+        
+        // Bishops
+        piece_locations = board.bitboards[attacker_color | re::BISHOP];
+
+        while (piece_locations) {
+            attacks |= get_bishop_attacks(re::bitscan_forward(piece_locations), board.all_piece_locations);
+            piece_locations &= piece_locations - 1;
+        }
+        
+        // Rooks
+        piece_locations = board.bitboards[attacker_color | re::ROOK];
+
+        while (piece_locations) {
+            attacks |= get_rook_attacks(re::bitscan_forward(piece_locations), board.all_piece_locations);
+            piece_locations &= piece_locations - 1;
+        }
+        
+        // Queens
+        piece_locations = board.bitboards[attacker_color | re::QUEEN];
+
+        while (piece_locations) {
+            attacks |= get_queen_attacks(re::bitscan_forward(piece_locations), board.all_piece_locations);
+            piece_locations &= piece_locations - 1;
+        }
+        
+        // King
+        attacks |= get_king_attacks(re::bitscan_forward(board.bitboards[attacker_color | re::KING]));
+
+        return attacks;
+    }
+
+    /**
+     * TODO: Sliding attacks entire ray so king wont just move back
+    */
     std::vector<re::Move> get_all_legal_moves(re::Board& board) {
         std::vector<re::Move> legal_moves;
+
+        char king_square = re::bitscan_forward(board.bitboards[board.current_turn | re:: KING]);
+        bool in_check = board.bitboards[board.current_turn | re::KING] & get_all_attacks(board, board.other_turn);
+        u64 attacks = get_all_attacks(board, board.other_turn);
+        
+        if (in_check) {
+            std::vector<u64> sliding_attacks = find_sliding_attacks(
+                king_square,
+                board.all_piece_locations,
+                board.bitboards[board.other_turn | re::BISHOP] | board.bitboards[board.other_turn | re::QUEEN],
+                board.bitboards[board.other_turn | re::ROOK] | board.bitboards[board.other_turn | re::QUEEN]
+            );
+
+            if (sliding_attacks.size() > 1) {
+                // Presumably only double checks are legal
+                u64 sliding_attack_bb = sliding_attacks[0] | sliding_attacks[1];
+                u64 king_moves = (get_king_attacks(king_square) ^ (get_king_attacks(king_square) & board.piece_locations[board.current_turn]));
+                re::display_bitboard(board.piece_locations[board.current_turn]);
+                king_moves &= ~sliding_attack_bb;
+
+                while (king_moves != 0ull) {
+                    char to = re::bitscan_forward(king_moves);
+
+                    if (board.piece_locations[board.other_turn] & (1ull << to)) {
+                        legal_moves.push_back(re::Move(king_square, to, re::CAPTURE, 0));
+                    }
+
+                    else {
+                        legal_moves.push_back(re::Move(king_square, to));
+                    }
+
+                    king_moves &= king_moves - 1;
+                }
+
+                return legal_moves;
+            }
+            // In check by sliding piece 
+
+            // In check by 
+        }
+
+        std::unordered_map<char, u64> xray_attacks = find_xray_attacks(
+            king_square, 
+            board.piece_locations[board.current_turn], 
+            board.all_piece_locations, 
+            board.bitboards[board.current_turn | re::BISHOP] | board.bitboards[board.current_turn | re:: QUEEN],
+            board.bitboards[board.current_turn | re::ROOK] | board.bitboards[board.current_turn | re:: QUEEN]
+            );
+
+        u64 pieces = board.bitboards[board.current_turn | re::PAWN];
+        u64 possible_moves;
+
+        while (pieces) {
+            char from = re::bitscan_forward(pieces);
+    
+            board.current_turn == re::W ? possible_moves = get_white_pawn_moves(from, board.all_piece_locations, board.piece_locations[re::B]) : possible_moves = get_black_pawn_moves(from, board.all_piece_locations, board.piece_locations[re::W]);
+
+            if (xray_attacks.find(from) != xray_attacks.end()) {
+                possible_moves &= xray_attacks[from];
+            }
+        }
 
         return legal_moves;
     }

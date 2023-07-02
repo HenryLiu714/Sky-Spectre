@@ -30,6 +30,12 @@
   "output": "CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj"
 },
 {
+  "directory": "C:/Stuff/Programming/Cpp/chess_engine3/build",
+  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\search.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\chess_engine3\\src\\search.cpp",
+  "file": "C:/Stuff/Programming/Cpp/chess_engine3/src/search.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/search.cpp.obj"
+},
+{
   "directory": "C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib",
   "command": "C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rcore.c.obj -c C:\\Stuff\\Programming\\Cpp\\chess_engine3\\build\\_deps\\raylib-src\\src\\rcore.c",
   "file": "C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src/src/rcore.c",
