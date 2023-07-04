@@ -52,6 +52,16 @@ namespace moves {
 
     std::vector<u64> find_sliding_attacks(char king_square, u64 all_pieces, u64 bQ_squares, u64 rQ_squares);
 
+    /**
+     * Main function used to generate a vector containing all the possible moves from a given board position
+     * Uses the board's current move
+     * @param board The input board, which should contain the correct current and opponent turn colors
+     * @return A vector containing all the moves possible from that position, including special move flags
+     * 
+     * TODO: Add en passant behavior
+     * TODO: Change promotion behavior (currently only queens)
+     * TODO: Add castling behavior !!
+    */
     std::vector<re::Move> get_all_legal_moves(re::Board& board);
 };
 

@@ -50,21 +50,22 @@ namespace display {
     void draw_board (re::Board& board, Texture2D chess_pieces) {
         u64 piece_locations = board.all_piece_locations;
 
-        for (int i = 0; i < 64; i++, piece_locations >>= 1) {
-            if ((piece_locations & 1ull) != 0) {
- 
-                for (auto bitboard : board.bitboards) {
-                    if ((bitboard.second & (1ull << i)) != 0) {
-                        DrawTextureRec(
+        while (piece_locations) {
+            int space = re::bitscan_forward(piece_locations);
+
+            for (auto bitboard : board.bitboards) {
+                if (bitboard.second & (1ull << space)) {
+                    DrawTextureRec(
                             chess_pieces,
                             pieces[bitboard.first],
-                            number_to_location(i),
+                            number_to_location(space),
                             RAYWHITE
                         );
-                    }   
                 }
             }
-        }       
+
+            piece_locations &= piece_locations - 1;
+        }   
     }  
 
     void highlight_square(int space) {

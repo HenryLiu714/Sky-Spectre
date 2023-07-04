@@ -1061,6 +1061,28 @@ namespace moves {
             moves &= moves - 1;
         }
 
+        if (board.current_turn == re::W) {
+            u64 blocked_squares = attacks | board.piece_locations[board.current_turn];
+            if (board.castling_availability[0] && !(((1ull << 5) | (1ull << 6)) & blocked_squares)) {
+                legal_moves.push_back(re::Move(4, 6, re::CASTLE));
+            }
+
+            if (board.castling_availability[1] && !(((1ull << 1) | (1ull << 2) | (1ull << 3)) & blocked_squares)) {
+                legal_moves.push_back(re::Move(4, 2, re::CASTLE));
+            }
+        }
+
+        else {
+            u64 blocked_squares = attacks | board.piece_locations[board.current_turn];
+            if (board.castling_availability[2] && !(((1ull << 61) | (1ull << 62)) & blocked_squares)) {
+                legal_moves.push_back(re::Move(60, 62, re::CASTLE));
+            }
+
+            if (board.castling_availability[3] && !(((1ull << 57) | (1ull << 58) | (1ull << 59)) & blocked_squares)) {
+                legal_moves.push_back(re::Move(60, 58, re::CASTLE));
+            }
+        }
+
         return legal_moves;
     }
 }

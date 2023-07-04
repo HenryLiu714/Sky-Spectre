@@ -26,9 +26,12 @@ int main () {
     chess_pieces = LoadTextureFromImage(pieces_image);
 
     re::Board board;
-    //board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-    board.update_with_fen((char*) "3r4/2P5/q6k/4N3/8/2KQ1R2/5P2/8 b KQkq - 0 1");
+   //board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+    board.update_with_fen((char*) "8/1k6/5K2/8/8/8/8/R2q4 w KQkq - 0 1");
 
+    board.perform_move(re::Move(0, 3, re::CAPTURE));
+    re::display_bitboard(board.piece_locations[re::B]);
+    
     /**
      * Drawing things
      * -------------------
@@ -58,9 +61,6 @@ int main () {
         //     board.bitboards[board.current_turn | re::BISHOP] | board.bitboards[board.current_turn | re:: QUEEN],
         //     board.bitboards[board.current_turn | re::ROOK] | board.bitboards[board.current_turn | re:: QUEEN]
         // ).size();
-
-        std::vector<re::Move> legal_moves = moves::get_all_legal_moves(board);
-        re::display_move_list(legal_moves);
         
         EndDrawing(); // Ends canvas drawing
     }
