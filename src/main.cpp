@@ -27,10 +27,9 @@ int main () {
 
     re::Board board;
    //board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-    board.update_with_fen((char*) "8/1k6/5K2/8/8/8/8/R2q4 w KQkq - 0 1");
+    board.update_with_fen((char*) "8/1k5P/5K2/8/8/8/8/R2q4 w KQkq - 0 1");
 
-    board.perform_move(re::Move(0, 3, re::CAPTURE));
-    re::display_bitboard(board.piece_locations[re::B]);
+    board.perform_move(re::Move(55, 63, re::PROMO_CAPTURE, re::QUEEN));
     
     /**
      * Drawing things

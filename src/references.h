@@ -366,40 +366,158 @@ namespace re {
                         bitboards[other_turn | KING] ^= capture_board;
                     }
 
+                    if (move.to == 7) {castling_availability[0]=0;}
+                    else if (move.to == 0) {castling_availability[1]=0;}
+                    else if (move.to == 63) {castling_availability[2]=0;}
+                    else if (move.to == 56) {castling_availability[3]=0;}
+
                     all_piece_locations ^= move_board;
                     piece_locations[current_turn] ^= move_board;
                     piece_locations[other_turn] ^= capture_board;
                 }
-            }
-
-            u64 move_board = (1ull << move.to) | (1ull << move.from);
-
-            if (bitboards[current_turn | PAWN] & (1ull << move.from)) {
-                bitboards[current_turn | PAWN] ^= move_board;
-            }
-
-            else if (bitboards[current_turn | KNIGHT] & (1ull << move.from)) {
-                bitboards[current_turn | KNIGHT] ^= move_board;
-            }
             
-            else if (bitboards[current_turn | BISHOP] & (1ull << move.from)) {
-                bitboards[current_turn | BISHOP] ^= move_board;
+                else if (move.special_move_flag == CASTLE) {
+                    u64 move_board = 0ull;
+                    if (move.to == 6) {
+                        move_board = (1ull << 4) | (1ull << 6) | (1ull << 5) | (1ull << 7);
+                        bitboards[re::W | re::KING] ^= (1ull << 4) | (1ull << 6);
+                        bitboards[re::W | re::ROOK] ^= (1ull << 5) | (1ull << 7);
+
+                        castling_availability[0] = 0;
+                        castling_availability[1] = 0;
+                    }
+
+                    else if (move.to == 2) {
+                        move_board = (1ull << 4) | (1ull << 2) | (1ull << 0) | (1ull << 3);
+                        bitboards[re::W | re::KING] ^= (1ull << 4) | (1ull << 2);
+                        bitboards[re::W | re::ROOK] ^= (1ull << 0) | (1ull << 3);
+
+                        castling_availability[0] = 0;
+                        castling_availability[1] = 0;
+                    }
+
+                    else if (move.to == 62) {
+                        move_board = (1ull << 60) | (1ull << 62) | (1ull << 63) | (1ull << 61);
+                        bitboards[re::B | re::KING] ^= (1ull << 60) | (1ull << 62);
+                        bitboards[re::B | re::ROOK] ^= (1ull << 63) | (1ull << 61);
+
+                        castling_availability[2] = 0;
+                        castling_availability[3] = 0;
+                    }
+
+                    else if (move.to == 58) {
+                        move_board = (1ull << 60) | (1ull << 58) | (1ull << 56) | (1ull << 59);
+                        bitboards[re::B | re::KING] ^= (1ull << 60) | (1ull << 58);
+                        bitboards[re::B | re::ROOK] ^= (1ull << 56) | (1ull << 59);
+
+                        castling_availability[2] = 0;
+                        castling_availability[3] = 0;
+                    }
+
+                    all_piece_locations ^= move_board;
+                    piece_locations[current_turn] ^= move_board;
+                }
+            
+                else if (move.special_move_flag == PROMOTION) {
+                    bitboards[current_turn | PAWN] ^= (1ull << move.from);
+                    bitboards[current_turn | move.promoted_piece] ^= (1ull << move.to);
+
+                    u64 move_board = (1ull << move.from) | (1ull << move.to);
+                    all_piece_locations ^= move_board;
+                    piece_locations[current_turn] ^= move_board;
+                }
+
+                else if (move.special_move_flag == PROMO_CAPTURE) {
+                    u64 move_board = (1ull << move.from) | (1ull << move.to);
+                    u64 capture_board = (1ull << move.to);
+
+                    if (bitboards[other_turn | PAWN] & capture_board) {
+                        bitboards[other_turn | PAWN] ^= capture_board;
+                    }
+
+                    else if (bitboards[other_turn | KNIGHT] & capture_board) {
+                        bitboards[other_turn | KNIGHT] ^= capture_board;
+                    }
+                    
+                    else if (bitboards[other_turn | BISHOP] & capture_board) {
+                        bitboards[other_turn | BISHOP] ^= capture_board;
+                    }
+
+                    else if (bitboards[other_turn | ROOK] & capture_board) {
+                        bitboards[other_turn | ROOK] ^= capture_board;
+                    }
+
+                    else if (bitboards[other_turn | QUEEN] & capture_board) {
+                        bitboards[other_turn | QUEEN] ^= capture_board;
+                    }
+
+                    else if (bitboards[other_turn | KING] & capture_board) {
+                        bitboards[other_turn | KING] ^= capture_board;
+                    }
+
+                    bitboards[current_turn | PAWN] ^= (1ull << move.from);
+                    bitboards[current_turn | move.promoted_piece] ^= (1ull << move.to);
+
+                    all_piece_locations ^= move_board;
+                    piece_locations[current_turn] ^= move_board;
+                }
             }
 
-            else if (bitboards[current_turn | ROOK] & (1ull << move.from)) {
-                bitboards[current_turn | ROOK] ^= move_board;
+            else {
+                u64 move_board = (1ull << move.to) | (1ull << move.from);
+
+                if (bitboards[current_turn | PAWN] & (1ull << move.from)) {
+                    bitboards[current_turn | PAWN] ^= move_board;
+                }
+
+                else if (bitboards[current_turn | KNIGHT] & (1ull << move.from)) {
+                    bitboards[current_turn | KNIGHT] ^= move_board;
+                }
+                
+                else if (bitboards[current_turn | BISHOP] & (1ull << move.from)) {
+                    bitboards[current_turn | BISHOP] ^= move_board;
+                }
+
+                else if (bitboards[current_turn | ROOK] & (1ull << move.from)) {
+                    bitboards[current_turn | ROOK] ^= move_board;
+                    
+                    if (move.from == 7) {castling_availability[0]=0;}
+                    else if (move.from == 0) {castling_availability[1]=0;}
+                    else if (move.from == 63) {castling_availability[2]=0;}
+                    else if (move.from == 56) {castling_availability[3]=0;}
+                }
+
+                else if (bitboards[current_turn | QUEEN] & (1ull << move.from)) {
+                    bitboards[current_turn | QUEEN] ^= move_board;
+                }
+
+                else if (bitboards[current_turn | KING] & (1ull << move.from)) {
+                    bitboards[current_turn | KING] ^= move_board;
+                    if (current_turn == W) {
+                        castling_availability[0] = 0;
+                        castling_availability[1] = 0;
+                    }
+
+                    else {
+                        castling_availability[2] = 0;
+                        castling_availability[3] = 0;
+                    }
+                }
+
+                all_piece_locations ^= move_board;
+                piece_locations[current_turn] ^= move_board;
+            }
+        
+            if (current_turn == W) {
+                current_turn = B;
+                other_turn = W;
             }
 
-            else if (bitboards[current_turn | QUEEN] & (1ull << move.from)) {
-                bitboards[current_turn | QUEEN] ^= move_board;
+            else {
+                current_turn = W;
+                other_turn = B;
+                fullmove_clock += 1;
             }
-
-            else if (bitboards[current_turn | KING] & (1ull << move.from)) {
-                bitboards[current_turn | KING] ^= move_board;
-            }
-
-            all_piece_locations ^= move_board;
-            piece_locations[current_turn] ^= move_board;
         }
     };
 
