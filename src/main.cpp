@@ -27,7 +27,7 @@ int main () {
 
     re::Board board;
     //board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-    board.update_with_fen((char*) "8/2k5/8/5b2/8/3K2q1/8/8 w KQkq - 0 1");
+    board.update_with_fen((char*) "3r4/2P5/q6k/4N3/8/2KQ1R2/5P2/8 b KQkq - 0 1");
 
     /**
      * Drawing things
@@ -51,8 +51,15 @@ int main () {
 
         // Display on click
         //display::display_possible_moves_from_click(board);
+        // std::cout << moves::find_xray_attacks(
+        //     re::bitscan_forward(board.bitboards[board.current_turn | re:: KING]),
+        //     board.piece_locations[board.current_turn], 
+        //     board.all_piece_locations, 
+        //     board.bitboards[board.current_turn | re::BISHOP] | board.bitboards[board.current_turn | re:: QUEEN],
+        //     board.bitboards[board.current_turn | re::ROOK] | board.bitboards[board.current_turn | re:: QUEEN]
+        // ).size();
+
         std::vector<re::Move> legal_moves = moves::get_all_legal_moves(board);
-        //std::cout << legal_moves.size();
         re::display_move_list(legal_moves);
         
         EndDrawing(); // Ends canvas drawing

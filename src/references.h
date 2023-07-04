@@ -30,7 +30,7 @@ namespace re {
         a7, b7, c7, d7, e7, f7, g7, h7,
         a8, b8, c8, d8, e8, f8, g8, h8
         }; // a1=0, h8=63
-    enum SpecialFlags {NONE, CAPTURE, CASTLE, EN_PASSANT, PROMOTION};
+    enum SpecialFlags {NONE, CASTLE, CAPTURE, EN_PASSANT, PROMOTION, PROMO_CAPTURE};
     enum Sliding_Directions {NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST, NORTH, EAST, SOUTH, WEST};
 
     void display_bitboard(u64 bitboard);
@@ -122,10 +122,8 @@ namespace re {
             // halfmove_clock= 0;
             // fullmove_clock= 0;
 
-            // piece_locations = {
-            //     {W, 0},
-            //     {B, 0}
-            // };
+            piece_locations[W] = 0ull;
+            piece_locations[B] = 0ull;
 
             // u64 all_piece_locations = 0ull;
 
@@ -304,7 +302,7 @@ namespace re {
     struct Move {
         char from;
         char to;
-        char special_move_flag; // 0 = no special move, 1 = capture, 2 = castle, 3 = en_passant, 4 = promotion
+        char special_move_flag; // 0 = no special move, 1 = castle, 2 = en_passant, 3 = capture, 4 = promotion, 5 = promotion + capture
         char promoted_piece;
 
         Move (char fromp, char top, char special_move_flagp=0, char promoted_piecep=0) {

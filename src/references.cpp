@@ -182,7 +182,10 @@ namespace re {
         std::cout << move_list.size() << "\n";
 
         for (re::Move move : move_list) {
-            std::cout << (int) move.from << " " << (int) move.to<< "\n";
+            std::cout << (int) move.from << " " << (int) move.to;
+
+            if (move.special_move_flag == CAPTURE) {std::cout << " CAPTURE";}
+            std::cout << "\n";
         }
 
         std::cout << "\n";
