@@ -1,5 +1,6 @@
 #include "evaluation.h"
 #include "references.h"
+#include "moves.h"
 
 namespace eval {
     /**
@@ -38,10 +39,20 @@ namespace eval {
         return score;
     }
 
+    int checkmate_score(re::Board& board) {
+        if (moves::in_checkmate(board)) {
+            if (board.current_turn == re::W) {return 10000000;}
+            else {return -1000000;}
+        }
+
+        return 0;
+    }
+
     int evaluate(re::Board& board) {
         int score = 0;
 
         score += pieces_score(board);
+        score += checkmate_score(board);
 
         return score;
     }

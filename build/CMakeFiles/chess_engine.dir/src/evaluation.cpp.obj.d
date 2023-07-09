@@ -330,4 +330,5 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/optional \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/memory_resource \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/uses_allocator_args.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/variant
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/variant \
+ C:\Stuff\Programming\Cpp\chess_engine3\src\moves.h

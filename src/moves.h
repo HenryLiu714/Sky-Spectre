@@ -63,6 +63,10 @@ namespace moves {
      * TODO: Add castling behavior !!
     */
     std::vector<re::Move> get_all_legal_moves(re::Board& board);
+
+    bool in_stalemate(re::Board& board);
+
+    bool in_checkmate(re::Board& board);
 };
 
 

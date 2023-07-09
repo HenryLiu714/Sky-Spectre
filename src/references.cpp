@@ -178,6 +178,13 @@ namespace re {
         return (piece <<= 4);
     }
 
+    void display_move(Move move) {
+        std::cout << (int) move.from << " " << (int) move.to;
+
+        if (move.special_move_flag == CAPTURE) {std::cout << " CAPTURE";}
+        std::cout << "\n";
+    }
+    
     void display_move_list(std::vector<Move> move_list) {
         std::cout << move_list.size() << "\n";
 

@@ -13,7 +13,7 @@ typedef unsigned long long u64;
 // Constants
 const int screen_width = 1080;
 const int screen_height = 720;
-const int fps = 30;
+const int fps = 100;
 
 const int box_size = screen_height / 8;
 
@@ -74,6 +74,10 @@ namespace re {
             to = top;
             special_move_flag = special_move_flagp;
             promoted_piece = promoted_piecep;
+        }
+
+        Move copy() {
+            return Move(from, to, special_move_flag, promoted_piece);
         }
     };
 
@@ -371,7 +375,7 @@ namespace re {
                     else if (move.to == 63) {castling_availability[2]=0;}
                     else if (move.to == 56) {castling_availability[3]=0;}
 
-                    all_piece_locations ^= move_board;
+                    all_piece_locations ^= (1ull << move.from);
                     piece_locations[current_turn] ^= move_board;
                     piece_locations[other_turn] ^= capture_board;
                 }
@@ -519,6 +523,27 @@ namespace re {
                 fullmove_clock += 1;
             }
         }
+    
+        Board copy() {
+            Board board;
+
+            board.bitboards = bitboards;
+            board.current_turn= current_turn;
+            board.other_turn = other_turn;
+
+            for (int i = 0; i < 4; i++) {
+                board.castling_availability[i] = castling_availability[i];
+            }
+
+            board.en_passant_target = en_passant_target;
+            board.halfmove_clock= halfmove_clock;
+            board.fullmove_clock= fullmove_clock;
+
+            board.piece_locations = piece_locations;
+            board.attacked_squares = attacked_squares;
+
+            return board;
+        }
     };
 
     void initialize_knight_moves();
@@ -546,6 +571,8 @@ namespace re {
     char get_team(char piece); 
 
     void display_move_list(std::vector<Move> move_list);
+
+    void display_move(Move move);
 }
 
 #endif

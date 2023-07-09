@@ -2,11 +2,15 @@
 #include <vector>
 #include <unordered_map>
 #include <raylib.h>
+#include <stdlib.h>
+#include <chrono>
+#include <ctime>
 
 #include "references.h"
 #include "display.h"
 #include "moves.h"
 #include "evaluation.h"
+#include "search.h"
 
 Texture2D chess_pieces;
 
@@ -26,10 +30,10 @@ int main () {
     chess_pieces = LoadTextureFromImage(pieces_image);
 
     re::Board board;
-   //board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-    board.update_with_fen((char*) "8/1k5P/5K2/8/8/8/8/R2q4 w KQkq - 0 1");
+    //board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+    board.update_with_fen((char*) "rnbqkbnr/ppp1pppp/8/1B1p4/8/8/PPPPPPPP/RNBQK1NR b KQkq - 0 1");
 
-    board.perform_move(re::Move(55, 63, re::PROMO_CAPTURE, re::QUEEN));
+    int counter = 0;
     
     /**
      * Drawing things
@@ -60,6 +64,31 @@ int main () {
         //     board.bitboards[board.current_turn | re::BISHOP] | board.bitboards[board.current_turn | re:: QUEEN],
         //     board.bitboards[board.current_turn | re::ROOK] | board.bitboards[board.current_turn | re:: QUEEN]
         // ).size();
+
+        if (counter == 0) {
+            auto t_start = std::chrono::high_resolution_clock::now();
+            re::Move move = search::search_depth(board, 2);
+
+            auto t_end = std::chrono::high_resolution_clock::now();
+
+            double elapsed_time_ms = std::chrono::duration<double, std::milli>(t_end-t_start).count();
+            std::cout << elapsed_time_ms;
+
+            if (move.to !=0 && move.from != 0) {
+                board.perform_move(move);
+                std::cout << eval::evaluate(board) << "\n";
+            }
+            
+            else {
+                counter = 11;
+            }
+        }
+
+        counter++;
+
+        if (counter == 1) {
+            counter = 0;
+        }
         
         EndDrawing(); // Ends canvas drawing
     }

@@ -61,6 +61,8 @@ namespace display {
                             number_to_location(space),
                             RAYWHITE
                         );
+
+                    DrawText(std::to_string(space).c_str(), number_to_location(space).x, number_to_location(space).y, 32, BLACK);
                 }
             }
 

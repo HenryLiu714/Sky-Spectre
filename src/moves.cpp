@@ -135,14 +135,14 @@ namespace moves {
         attacks |= re::get_sliding_bitmask(square, re::WEST);
         if (re::get_sliding_bitmask(square, re::WEST) & blockers) {
             u64 masked_blockers = re::get_sliding_bitmask(square, re::WEST) & blockers;
-            attacks &= ~re::get_sliding_bitmask(re::bitscan_forward(masked_blockers), re::WEST);
+            attacks &= ~re::get_sliding_bitmask(re::bitscan_reverse(masked_blockers), re::WEST);
         }
 
         // East
         attacks |= re::get_sliding_bitmask(square, re::EAST);
         if (re::get_sliding_bitmask(square, re::EAST) & blockers) {
             u64 masked_blockers = re::get_sliding_bitmask(square, re::EAST) & blockers;
-            attacks &= ~re::get_sliding_bitmask(re::bitscan_reverse(masked_blockers), re::EAST);
+            attacks &= ~re::get_sliding_bitmask(re::bitscan_forward(masked_blockers), re::EAST);
         }
 
         // South
@@ -158,8 +158,7 @@ namespace moves {
     u64 get_queen_attacks(char square, u64 blockers) {
         return (get_bishop_attacks(square, blockers) | get_rook_attacks(square, blockers));
     }
-
-    
+   
     u64 get_king_attacks(char square) {
         return re::get_king_bitmask(square);
     }
@@ -347,7 +346,7 @@ namespace moves {
 
                 if ((1ull << attack_position) & bQ_squares) {
                     u64 attack_ray = re::get_sliding_bitmask(king_square, re::SOUTHEAST) & ~re::get_sliding_bitmask(attack_position, re::SOUTHEAST);
-                    sliding_attacks.push_back(1ull);
+                    sliding_attacks.push_back(attack_ray);
                 }
             }
 
@@ -356,7 +355,7 @@ namespace moves {
 
                 if ((1ull << attack_position) & bQ_squares) {
                     u64 attack_ray = re::get_sliding_bitmask(king_square, re::SOUTHWEST) & ~re::get_sliding_bitmask(attack_position, re::SOUTHWEST);
-                    sliding_attacks.push_back(1ull);
+                    sliding_attacks.push_back(attack_ray);
                 }
             }
         }
@@ -646,6 +645,152 @@ namespace moves {
                     king_moves &= king_moves - 1;
                 }
 
+                u64 piece_locations = board.bitboards[board.other_turn | re::KNIGHT];
+                u64 attacking_square = 0ull;
+
+                while (piece_locations) {
+                    if (get_knight_attacks(re::bitscan_forward(piece_locations)) & board.bitboards[board.current_turn | re::KING]) {
+                        attacking_square = (1ull << re::bitscan_forward(piece_locations));
+                        break;
+                    }
+
+                    piece_locations &= piece_locations - 1;
+                }
+
+                if (!attacking_square) {
+                    piece_locations = board.bitboards[board.other_turn | re::PAWN];
+                    while (piece_locations) {
+                        if (board.current_turn == re::W) {
+                            if (get_black_pawn_attacks(re::bitscan_forward(piece_locations)) & board.bitboards[board.current_turn | re::KING]) {
+                                attacking_square = (1ull << re::bitscan_forward(piece_locations));
+                                break;
+                            }
+                        }
+
+                        else {
+                            if (get_white_pawn_attacks(re::bitscan_forward(piece_locations)) & board.bitboards[board.current_turn | re::KING]) {
+                                attacking_square = (1ull << re::bitscan_forward(piece_locations));
+                                break;
+                            }
+                        }
+
+                        piece_locations &= piece_locations - 1;
+                    }
+                }
+
+                u64 possible_moves = 0ull;
+                if (board.current_turn == re::W) {
+                    piece_locations = board.bitboards[board.current_turn | re::PAWN];
+
+                    while (piece_locations) {
+                        char from = re::bitscan_forward(piece_locations);
+
+                        possible_moves = get_white_pawn_attacks(from);
+
+                        if (xray_attacks.find(from) != xray_attacks.end()) {
+                            possible_moves &= xray_attacks[from];
+                        }
+
+                        if (possible_moves & attacking_square) {
+                            legal_moves.push_back(re::Move(from, re::bitscan_forward(possible_moves & attacking_square), re::CAPTURE));
+                        }
+                        
+                        piece_locations &= piece_locations - 1;
+                    }
+                }
+
+                else {
+                    piece_locations = board.bitboards[board.current_turn | re::PAWN];
+
+                    while (piece_locations) {
+                        char from = re::bitscan_forward(piece_locations);
+
+                        possible_moves = get_black_pawn_attacks(from);
+
+                        if (xray_attacks.find(from) != xray_attacks.end()) {
+                            possible_moves &= xray_attacks[from];
+                        }
+
+                        if (possible_moves & attacking_square) {
+                            legal_moves.push_back(re::Move(from, re::bitscan_forward(possible_moves & attacking_square), re::CAPTURE));
+                        }
+                        
+                        piece_locations &= piece_locations - 1;
+                    }
+                }
+
+                piece_locations = board.bitboards[board.current_turn | re::KNIGHT];
+
+                while (piece_locations) {
+                    char from = re::bitscan_forward(piece_locations);
+
+                    possible_moves = get_knight_attacks(from);
+
+                    if (xray_attacks.find(from) != xray_attacks.end()) {
+                            possible_moves &= xray_attacks[from];
+                    }
+
+                    if (possible_moves & attacking_square) {
+                            legal_moves.push_back(re::Move(from, re::bitscan_forward(possible_moves & attacking_square), re::CAPTURE));
+                    }
+
+                    piece_locations &= piece_locations - 1;
+                }
+
+                piece_locations = board.bitboards[board.current_turn | re::BISHOP];
+
+                while (piece_locations) {
+                    char from = re::bitscan_forward(piece_locations);
+
+                    possible_moves = get_bishop_attacks(from, board.all_piece_locations);
+
+                    if (xray_attacks.find(from) != xray_attacks.end()) {
+                            possible_moves &= xray_attacks[from];
+                    }
+
+                    if (possible_moves & attacking_square) {
+                            legal_moves.push_back(re::Move(from, re::bitscan_forward(possible_moves & attacking_square), re::CAPTURE));
+                    }
+
+                    piece_locations &= piece_locations - 1;
+                }
+
+                piece_locations = board.bitboards[board.current_turn | re::ROOK];
+
+                while (piece_locations) {
+                    char from = re::bitscan_forward(piece_locations);
+
+                    possible_moves = get_rook_attacks(from, board.all_piece_locations);
+
+                    if (xray_attacks.find(from) != xray_attacks.end()) {
+                            possible_moves &= xray_attacks[from];
+                    }
+
+                    if (possible_moves & attacking_square) {
+                            legal_moves.push_back(re::Move(from, re::bitscan_forward(possible_moves & attacking_square), re::CAPTURE));
+                    }
+
+                    piece_locations &= piece_locations - 1;
+                }
+
+                piece_locations = board.bitboards[board.current_turn | re::QUEEN];
+
+                while (piece_locations) {
+                    char from = re::bitscan_forward(piece_locations);
+
+                    possible_moves = get_queen_attacks(from, board.all_piece_locations);
+
+                    if (xray_attacks.find(from) != xray_attacks.end()) {
+                            possible_moves &= xray_attacks[from];
+                    }
+
+                    if (possible_moves & attacking_square) {
+                            legal_moves.push_back(re::Move(from, re::bitscan_forward(possible_moves & attacking_square), re::CAPTURE));
+                    }
+
+                    piece_locations &= piece_locations - 1;
+                }
+                
                 return legal_moves;
             }
  
@@ -659,7 +804,6 @@ namespace moves {
                     board.bitboards[board.other_turn | re::BISHOP] | board.bitboards[board.other_turn | re::QUEEN],
                     board.bitboards[board.other_turn | re::ROOK] | board.bitboards[board.other_turn | re::QUEEN]);
                     
-                
                 u64 king_moves = (get_king_attacks(king_square) ^ (get_king_attacks(king_square) & board.piece_locations[board.current_turn]));
                 king_moves &= ~get_all_attacks(board, board.other_turn);
                 king_moves &= ~sliding_attacks[0];
@@ -759,6 +903,7 @@ namespace moves {
 
                         while (moves) {
                             char to = re::bitscan_forward(moves);
+
                             if (to / 8 == 0) {
                                 legal_moves.push_back(re::Move(from, to, re::PROMOTION, re::QUEEN));
                             }
@@ -906,12 +1051,30 @@ namespace moves {
                 moves ^= capture_moves;
 
                 while (capture_moves) {
-                    legal_moves.push_back(re::Move(from, re::bitscan_forward(capture_moves), re::CAPTURE, 0));
+                    char to = re::bitscan_forward(capture_moves);
+
+                    // Can change promo behavior if want
+                    if (to / 8 == 7) {
+                        legal_moves.push_back(re::Move(from, to, re::PROMO_CAPTURE, re::QUEEN));
+                    }
+                    
+                    else {
+                        legal_moves.push_back(re::Move(from, to, re::CAPTURE, 0));
+                    }
+
                     capture_moves &= capture_moves - 1;
                 }
 
                 while (moves) {
-                    legal_moves.push_back(re::Move(from, re::bitscan_forward(moves)));
+                    char to = re::bitscan_forward(moves);
+                    if (to / 8 == 7) {
+                        legal_moves.push_back(re::Move(from, to, re::PROMOTION, re::QUEEN));
+                    }
+
+                    else {
+                        legal_moves.push_back(re::Move(from, re::bitscan_forward(moves)));
+                    }
+                    
                     moves &= moves - 1;
                 }
 
@@ -932,12 +1095,30 @@ namespace moves {
                 moves ^= capture_moves;
 
                 while (capture_moves) {
-                    legal_moves.push_back(re::Move(from, re::bitscan_forward(capture_moves), re::CAPTURE, 0));
+                    char to = re::bitscan_forward(capture_moves);
+
+                    // Can change promo behavior if want
+                    if (to / 8 == 0) {
+                        legal_moves.push_back(re::Move(from, to, re::PROMO_CAPTURE, re::QUEEN));
+                    }
+                    
+                    else {
+                        legal_moves.push_back(re::Move(from, to, re::CAPTURE, 0));
+                    }
+
                     capture_moves &= capture_moves - 1;
                 }
 
                 while (moves) {
-                    legal_moves.push_back(re::Move(from, re::bitscan_forward(moves)));
+                    char to = re::bitscan_forward(moves);
+                    if (to / 8 == 0) {
+                        legal_moves.push_back(re::Move(from, to, re::PROMOTION, re::QUEEN));
+                    }
+
+                    else {
+                        legal_moves.push_back(re::Move(from, re::bitscan_forward(moves)));
+                    }
+                    
                     moves &= moves - 1;
                 }
 
@@ -1039,6 +1220,7 @@ namespace moves {
 
             while (moves) {
                 legal_moves.push_back(re::Move(from, re::bitscan_forward(moves)));
+                
                 moves &= moves - 1;
             }
 
@@ -1085,4 +1267,16 @@ namespace moves {
 
         return legal_moves;
     }
-}
+
+    bool in_stalemate(re::Board& board) {
+        if (get_all_legal_moves(board).empty() && !(board.bitboards[board.current_turn | re::KING] & get_all_attacks(board, board.other_turn))) {
+            return 1;
+        }
+
+        return 0;
+    }
+
+    bool in_checkmate(re::Board& board) {
+        return (get_all_legal_moves(board).empty() && (board.bitboards[board.current_turn | re::KING] & get_all_attacks(board, board.other_turn)));
+    }
+};

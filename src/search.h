@@ -7,6 +7,11 @@
 
 namespace search {
     /**
+     * 
+    */
+    re::Move search_depth(re::Board& board, int depth);
+
+    /**
      * Searches for the best move
      * @param board The given board to search from
      * @param side The side that is making the move
