@@ -1,14 +1,6 @@
 CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:\Stuff\Programming\Cpp\chess_engine3\src\evaluation.cpp \
- C:\Stuff\Programming\Cpp\chess_engine3\src\evaluation.h \
- C:\Stuff\Programming\Cpp\chess_engine3\src\references.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/pstl_config.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/assert.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/time.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/corecrt.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw.h \
@@ -16,8 +8,21 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/vadefs.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/stdlib.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdlib \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/pstl_config.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdlib.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
@@ -28,29 +33,12 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/std_abs.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cctype \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/ctype.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cerrno \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cfloat \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/float.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ciso646 \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/climits \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/locale.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdio.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cmath \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cpp_type_traits.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/type_traits.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/math.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/specfun.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/list \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_algobase.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/functexcept.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/exception_defines.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cpp_type_traits.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/type_traits.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/numeric_traits.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_pair.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits \
@@ -64,6 +52,59 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ptr_traits.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/debug/debug.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/predefined_ops.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/allocator.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/new_allocator.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/new \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/exception.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/memoryfwd.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/range_access.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/initializer_list \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_list.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/alloc_traits.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/alloc_traits.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_construct.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/allocated_ptr.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/aligned_buffer.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/list.tcc \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/vector \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_uninitialized.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_vector.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_bvector.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/functional_hash.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hash_bytes.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/refwrap.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/invoke.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_function.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/binders.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/unordered_map \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hashtable.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hashtable_policy.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tuple \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/uses_allocator.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/enable_special_members.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/node_handle.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/unordered_map.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/erase_if.h \
+ C:\Stuff\Programming\Cpp\chess_engine3\src\evaluation.h \
+ C:\Stuff\Programming\Cpp\chess_engine3\src\references.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/assert.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cctype \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/ctype.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cerrno \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cfloat \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/float.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ciso646 \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/climits \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/locale.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cmath \
+ C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/specfun.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/limits \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/gamma.tcc \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/special_function_util.h \
@@ -94,11 +135,6 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/time.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_timeval.h \
- C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cwchar \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/wchar.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
@@ -112,15 +148,11 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ios \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iosfwd \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stringfwd.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/memoryfwd.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/postypes.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/exception \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/exception.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/exception_ptr.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cxxabi_init_exception.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/typeinfo \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hash_bytes.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/new \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/nested_exception.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/char_traits.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdint \
@@ -135,23 +167,10 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_classes.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/allocator.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/new_allocator.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/ostream_insert.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/cxxabi_forced.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_function.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/binders.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/refwrap.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/invoke.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/range_access.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/initializer_list \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_string.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/alloc_traits.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/alloc_traits.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_construct.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string_view \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/functional_hash.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/string_view.tcc \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/string_conversions.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/charconv.h \
@@ -195,7 +214,6 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/pstl/execution_defs.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bitset \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/deque \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_uninitialized.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_deque.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/deque.tcc \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/fstream \
@@ -204,21 +222,7 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/fstream.tcc \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/functional \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tuple \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/uses_allocator.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/std_function.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/unordered_map \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/aligned_buffer.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hashtable.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/hashtable_policy.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/enable_special_members.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/node_handle.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/unordered_map.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/erase_if.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/vector \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_vector.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_bvector.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/array \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/compare \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iomanip \
@@ -232,10 +236,6 @@ CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iostream \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iterator \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stream_iterator.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/list \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_list.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/allocated_ptr.h \
- C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/list.tcc \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/map \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_tree.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_map.h \

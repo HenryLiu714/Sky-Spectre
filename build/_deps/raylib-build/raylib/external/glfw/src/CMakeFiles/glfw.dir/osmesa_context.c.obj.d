@@ -1,4 +1,4 @@
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: \
+C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: \
  C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\osmesa_context.c \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdlib.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/corecrt.h \

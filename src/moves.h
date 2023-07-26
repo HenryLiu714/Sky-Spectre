@@ -52,6 +52,7 @@ namespace moves {
 
     std::vector<u64> find_sliding_attacks(char king_square, u64 all_pieces, u64 bQ_squares, u64 rQ_squares);
 
+    u64 get_all_attacks(re::Board& board, char attacker_color);
     /**
      * Main function used to generate a vector containing all the possible moves from a given board position
      * Uses the board's current move

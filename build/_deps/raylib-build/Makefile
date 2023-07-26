@@ -59,7 +59,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\chess_engine3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Stuff\Programming\Cpp\chess_engine3\build
+CMAKE_BINARY_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Stuff\Programming\Cpp\chess_engine3\build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Stuff/Programming/Cpp/chess_engine3/build/CPackSourceConfig.cmake
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Stuff/Programming/Cpp/Sky-Spectre/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,14 +151,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Stuff\Programming\Cpp\chess_engine3\build\CMakeFiles C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-build\\CMakeFiles\progress.marks
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/raylib-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Stuff\Programming\Cpp\chess_engine3\build\CMakeFiles 0
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-build\\CMakeFiles\progress.marks
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/raylib-build/clean
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -167,17 +167,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/raylib-build/preinstall
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/raylib-build/preinstall
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Stuff\Programming\Cpp\chess_engine3\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

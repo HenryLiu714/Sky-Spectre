@@ -306,15 +306,8 @@ namespace re {
             halfmove_clock = fen_string[i] - '0';
             i+=2;
             fullmove_clock = fen_string[i] - '0';
+            display_bitboard(all_piece_locations);
         } 
-
-        void display_bitboard(char board_number) {
-            u64 bitboard = bitboards[board_number];
-
-            for (int i = 0; i < 64; i++, bitboard >>= 1) {
-                std::cout << bitboard % 2;
-            }
-        }
     
         void perform_move(Move move) {
             if (move.special_move_flag > 0) {
@@ -420,6 +413,8 @@ namespace re {
 
                     all_piece_locations ^= move_board;
                     piece_locations[current_turn] ^= move_board;
+
+                    
                 }
             
                 else if (move.special_move_flag == PROMOTION) {
@@ -464,6 +459,32 @@ namespace re {
 
                     all_piece_locations ^= move_board;
                     piece_locations[current_turn] ^= move_board;
+                }
+            
+                if (!(bitboards[re::W | re::KING] & (1ull << 4))) {
+                    castling_availability[0] = 0;
+                    castling_availability[1] = 0;
+                }
+
+                if (!(bitboards[re::B | re::KING] & (1ull << 60))) {
+                    castling_availability[2] = 0;
+                    castling_availability[3] = 0;
+                }
+
+                if (!(bitboards[re::W | re::ROOK] & (1ull << 0))) {
+                    castling_availability[0] = 0;
+                }
+
+                if (!(bitboards[re::W | re::ROOK] & (1ull << 7))) {
+                    castling_availability[1] = 0;
+                }
+
+                if (!(bitboards[re::B | re::ROOK] & (1ull << 56))) {
+                    castling_availability[3] = 0;
+                }
+
+                if (!(bitboards[re::B | re::ROOK] & (1ull << 63))) {
+                    castling_availability[2] = 0;
                 }
             }
 
@@ -510,6 +531,32 @@ namespace re {
 
                 all_piece_locations ^= move_board;
                 piece_locations[current_turn] ^= move_board;
+
+                if (!(bitboards[re::W | re::KING] & (1ull << 4))) {
+                    castling_availability[0] = 0;
+                    castling_availability[1] = 0;
+                }
+
+                if (!(bitboards[re::B | re::KING] & (1ull << 60))) {
+                    castling_availability[2] = 0;
+                    castling_availability[3] = 0;
+                }
+
+                if (!(bitboards[re::W | re::ROOK] & (1ull << 0))) {
+                    castling_availability[0] = 0;
+                }
+
+                if (!(bitboards[re::W | re::ROOK] & (1ull << 7))) {
+                    castling_availability[1] = 0;
+                }
+
+                if (!(bitboards[re::B | re::ROOK] & (1ull << 56))) {
+                    castling_availability[3] = 0;
+                }
+
+                if (!(bitboards[re::B | re::ROOK] & (1ull << 63))) {
+                    castling_availability[2] = 0;
+                }
             }
         
             if (current_turn == W) {

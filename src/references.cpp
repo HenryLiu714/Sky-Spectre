@@ -182,6 +182,7 @@ namespace re {
         std::cout << (int) move.from << " " << (int) move.to;
 
         if (move.special_move_flag == CAPTURE) {std::cout << " CAPTURE";}
+        else if (move.special_move_flag == CASTLE) {std::cout << "CASTLE";}
         std::cout << "\n";
     }
     

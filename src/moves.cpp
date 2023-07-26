@@ -552,10 +552,10 @@ namespace moves {
     */
     std::vector<re::Move> get_all_legal_moves(re::Board& board) {
         std::vector<re::Move> legal_moves;
+        u64 attacks = get_all_attacks(board, board.other_turn);
 
         char king_square = re::bitscan_forward(board.bitboards[board.current_turn | re:: KING]);
-        bool in_check = board.bitboards[board.current_turn | re::KING] & get_all_attacks(board, board.other_turn);
-        u64 attacks = get_all_attacks(board, board.other_turn);
+        bool in_check = board.bitboards[board.current_turn | re::KING] & attacks;
 
         std::unordered_map<char, u64> xray_attacks = find_xray_attacks(
             king_square, 
@@ -626,8 +626,6 @@ namespace moves {
 
             // In check by non sliding piece
             if (sliding_attacks.size() == 0) {
-                u64 attacks = get_all_attacks(board, board.other_turn);
-
                 u64 king_moves = (get_king_attacks(king_square) ^ (get_king_attacks(king_square) & board.piece_locations[board.current_turn]));
                 king_moves &= ~attacks;
 

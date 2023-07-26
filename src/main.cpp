@@ -3,6 +3,7 @@
 #include <unordered_map>
 #include <raylib.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <chrono>
 #include <ctime>
 
@@ -30,8 +31,11 @@ int main () {
     chess_pieces = LoadTextureFromImage(pieces_image);
 
     re::Board board;
-    //board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-    board.update_with_fen((char*) "rnbqkbnr/ppp1pppp/8/1B1p4/8/8/PPPPPPPP/RNBQK1NR b KQkq - 0 1");
+    board.update_with_fen((char*) "4k2r/8/8/8/8/8/8/3K3Q w k - 0 1");
+    //board.update_with_fen((char*) "rnbqkbnr/ppp1pppp/8/1B1p4/8/8/PPPPPPPP/RNBQK1NR b KQkq - 0 1");
+
+    // Initialize zobrist hashing
+    eval::initialize_hash();
 
     int counter = 0;
     
@@ -67,16 +71,16 @@ int main () {
 
         if (counter == 0) {
             auto t_start = std::chrono::high_resolution_clock::now();
-            re::Move move = search::search_depth(board, 2);
+            re::Move move = search::search_depth(board, 5);
 
-            auto t_end = std::chrono::high_resolution_clock::now();
+            // auto t_end = std::chrono::high_resolution_clock::now();
 
-            double elapsed_time_ms = std::chrono::duration<double, std::milli>(t_end-t_start).count();
-            std::cout << elapsed_time_ms;
+            // double elapsed_time_ms = std::chrono::duration<double, std::milli>(t_end-t_start).count();
+            // std::cout << elapsed_time_ms << "\n";
 
             if (move.to !=0 && move.from != 0) {
                 board.perform_move(move);
-                std::cout << eval::evaluate(board) << "\n";
+                // re::display_move(move);
             }
             
             else {

@@ -10,6 +10,11 @@ namespace eval {
     const int ROOK_VAL = 500;
     const int QUEEN_VAL = 900;
 
+    // Max number of elements in transposition table, 1 position = 12 bytes
+    const int MAX_TABLE_SIZE = 12500000;
+
+    void initialize_hash();
+
     /**
      * Function used to evaluate a current board position where a positive number is beneficial to white and negative is 
      * good for black
