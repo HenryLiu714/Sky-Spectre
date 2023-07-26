@@ -1,7 +1,7 @@
-C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\win32_init.c \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\internal.h \
- C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_init.c \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\internal.h \
+ C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -13,9 +13,9 @@ C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\platform.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\null_platform.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\win32_platform.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\platform.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\null_platform.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_platform.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/wctype.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
@@ -228,7 +228,7 @@ C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/xinput.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/dbt.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\null_joystick.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\win32_joystick.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\win32_thread.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external\glfw\src\win32_time.h
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\null_joystick.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_joystick.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_thread.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_time.h

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src/src/external/glfw
+# Install script for directory: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
+  include("C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
 endif()
 

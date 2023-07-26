@@ -1,6 +1,6 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\rmodels.c \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\raylib.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rmodels.c \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\raylib.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -10,10 +10,10 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\config.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\utils.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\rlgl.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\raymath.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\config.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\utils.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rlgl.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\raymath.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -33,17 +33,17 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/tinyobj_loader_c.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/tinyobj_loader_c.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/assert.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/cgltf.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/cgltf.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/float.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/vox_loader.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/m3d.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/par_shapes.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/vox_loader.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/m3d.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/par_shapes.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/direct.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/io.h

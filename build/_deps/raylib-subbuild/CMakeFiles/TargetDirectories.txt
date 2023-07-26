@@ -1,3 +1,3 @@
-C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
-C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
-C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir
+C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
+C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
+C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir

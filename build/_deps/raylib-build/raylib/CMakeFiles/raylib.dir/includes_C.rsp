@@ -1,1 +1,1 @@
--I"C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src/src" -isystem "C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src/src/external/glfw/include"
+-I"C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src" -isystem "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/include"

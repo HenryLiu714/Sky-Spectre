@@ -1,4 +1,4 @@
-# Install script for directory: C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src/src/external/glfw/src
+# Install script for directory: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,6 +1,6 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\raudio.c \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\raylib.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\raudio.c \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\raylib.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -10,8 +10,8 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\config.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\utils.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\config.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\utils.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/excpt.h \
@@ -258,7 +258,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/imm.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/mmreg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/pshpack1.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/miniaudio.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/miniaudio.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/assert.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdio.h \
@@ -273,12 +273,12 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/io.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sys/types.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/dr_wav.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/stb_vorbis.c \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/dr_mp3.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/qoa.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/qoaplay.c \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/jar_xm.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/dr_wav.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/stb_vorbis.c \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/dr_mp3.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/qoa.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/qoaplay.c \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/jar_xm.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/jar_mod.h
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/jar_mod.h

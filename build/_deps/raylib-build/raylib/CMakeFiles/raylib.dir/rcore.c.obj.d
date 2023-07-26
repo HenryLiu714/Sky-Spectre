@@ -1,6 +1,6 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\rcore.c \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\raylib.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rcore.c \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\raylib.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -10,10 +10,10 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\config.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\utils.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\rlgl.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/glad.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\config.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\utils.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rlgl.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/glad.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -37,16 +37,16 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/math.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\raymath.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\rgestures.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\rcamera.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/msf_gif.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\raymath.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rgestures.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rcamera.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/msf_gif.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/sinfl.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/sinfl.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/assert.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\external/sdefl.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external/sdefl.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/time.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
@@ -58,5 +58,5 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/dirent.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/direct.h \
- C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
- C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3native.h
+ C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
+ C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3native.h

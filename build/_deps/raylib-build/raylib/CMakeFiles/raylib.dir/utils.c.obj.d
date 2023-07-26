@@ -1,6 +1,6 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\utils.c \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\raylib.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\utils.c \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\raylib.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -10,8 +10,8 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\config.h \
- C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-src\src\utils.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\config.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\utils.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/stdlib.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/corecrt.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \

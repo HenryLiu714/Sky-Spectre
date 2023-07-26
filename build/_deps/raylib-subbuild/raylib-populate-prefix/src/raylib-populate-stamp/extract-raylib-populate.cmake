@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-src" ABSOLUTE)
+get_filename_component(filename "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

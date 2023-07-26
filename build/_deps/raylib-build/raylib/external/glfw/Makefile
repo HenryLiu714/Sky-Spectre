@@ -151,14 +151,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles C:\Stuff\Programming\Cpp\chess_engine3\build\_deps\raylib-build\raylib\external\glfw\\CMakeFiles\progress.marks
-	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/glfw/all
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\\CMakeFiles\progress.marks
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/raylib-build/raylib/external/glfw/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/glfw/clean
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/raylib-build/raylib/external/glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -167,12 +167,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/glfw/preinstall
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/raylib-build/raylib/external/glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C:/Stuff/Programming/Cpp/chess_engine3/build/_deps/raylib-build/raylib/external/glfw/preinstall
+	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/raylib-build/raylib/external/glfw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends

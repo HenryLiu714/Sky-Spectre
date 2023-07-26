@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/3.27.0-rc3/CompilerIdC/a.exe
+        C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/3.27.0-rc3/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/3.27.0-rc3/CompilerIdCXX/a.exe
+        C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/3.27.0-rc3/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-z6x73t"
-      binary: "C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-z6x73t"
+      source: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-r0pl0u"
+      binary: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-r0pl0u"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,13 +70,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-z6x73t'
+        Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-r0pl0u'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c13fc/fast
-        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c13fc.dir\\build.make CMakeFiles/cmTC_c13fc.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-z6x73t'
-        Building C object CMakeFiles/cmTC_c13fc.dir/CMakeCCompilerABI.c.obj
-        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_40204/fast
+        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_40204.dir\\build.make CMakeFiles/cmTC_40204.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-r0pl0u'
+        Building C object CMakeFiles/cmTC_40204.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\awsom\\mingw64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -84,8 +84,8 @@ events:
         Thread model: win32
         Supported LTO compression algorithms: zlib
         gcc version 12.2.0 (x86_64-win32-seh-rev2, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c13fc.dir\\'
-         C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_c13fc.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\awsom\\AppData\\Local\\Temp\\ccUR1tM6.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_40204.dir\\'
+         C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_40204.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\awsom\\AppData\\Local\\Temp\\ccuKqYeB.s
         GNU C17 (x86_64-win32-seh-rev2, Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
         
@@ -106,17 +106,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 55e59d8bdc6ac83ef8cc70918a38798b
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c13fc.dir\\'
-         C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj C:\\Users\\awsom\\AppData\\Local\\Temp\\ccUR1tM6.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_40204.dir\\'
+         C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj C:\\Users\\awsom\\AppData\\Local\\Temp\\ccuKqYeB.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;C:/Users/awsom/mingw64/bin/../libexec/gcc/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;C:/Users/awsom/mingw64/bin/../lib/gcc/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_c13fc.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c13fc.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c13fc.dir/objects.a
-        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c13fc.dir/objects.a @CMakeFiles\\cmTC_c13fc.dir\\objects1.rsp
-        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe  -v -Wl,--dependency-file,CMakeFiles\\cmTC_c13fc.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_c13fc.dir/objects.a -Wl,--no-whole-archive -o cmTC_c13fc.exe -Wl,--out-implib,libcmTC_c13fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_40204.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_40204.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_40204.dir/objects.a
+        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_40204.dir/objects.a @CMakeFiles\\cmTC_40204.dir\\objects1.rsp
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe  -v -Wl,--dependency-file,CMakeFiles\\cmTC_40204.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_40204.dir/objects.a -Wl,--no-whole-archive -o cmTC_40204.exe -Wl,--out-implib,libcmTC_40204.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\awsom\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
@@ -127,10 +127,10 @@ events:
         gcc version 12.2.0 (x86_64-win32-seh-rev2, Built by MinGW-W64 project) 
         COMPILER_PATH=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;C:/Users/awsom/mingw64/bin/../libexec/gcc/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;C:/Users/awsom/mingw64/bin/../lib/gcc/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c13fc.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_c13fc.'
-         C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccyYQgeh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/msvcrt-seh-win32/x86_64-1220-win32-seh-msvcrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_c13fc.exe C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LC:/Users/awsom/mingw64/bin/../lib/gcc -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --dependency-file CMakeFiles\\cmTC_c13fc.dir\\link.d --whole-archive CMakeFiles\\cmTC_c13fc.dir/objects.a --no-whole-archive --out-implib libcmTC_c13fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c13fc.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_c13fc.'
-        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-z6x73t'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40204.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_40204.'
+         C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\cc0UPVUN.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/msvcrt-seh-win32/x86_64-1220-win32-seh-msvcrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_40204.exe C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LC:/Users/awsom/mingw64/bin/../lib/gcc -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --dependency-file CMakeFiles\\cmTC_40204.dir\\link.d --whole-archive CMakeFiles\\cmTC_40204.dir/objects.a --no-whole-archive --out-implib libcmTC_40204.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40204.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_40204.'
+        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-r0pl0u'
         
       exitCode: 0
   -
@@ -162,13 +162,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-z6x73t']
+        ignore line: [Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-r0pl0u']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c13fc/fast]
-        ignore line: [C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c13fc.dir\\build.make CMakeFiles/cmTC_c13fc.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-z6x73t']
-        ignore line: [Building C object CMakeFiles/cmTC_c13fc.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_40204/fast]
+        ignore line: [C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_40204.dir\\build.make CMakeFiles/cmTC_40204.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-r0pl0u']
+        ignore line: [Building C object CMakeFiles/cmTC_40204.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\awsom\\mingw64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -176,8 +176,8 @@ events:
         ignore line: [Thread model: win32]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.2.0 (x86_64-win32-seh-rev2  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c13fc.dir\\']
-        ignore line: [ C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_c13fc.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\awsom\\AppData\\Local\\Temp\\ccUR1tM6.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_40204.dir\\']
+        ignore line: [ C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_40204.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\awsom\\AppData\\Local\\Temp\\ccuKqYeB.s]
         ignore line: [GNU C17 (x86_64-win32-seh-rev2  Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
         ignore line: []
@@ -198,8 +198,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 55e59d8bdc6ac83ef8cc70918a38798b]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c13fc.dir\\']
-        ignore line: [ C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj C:\\Users\\awsom\\AppData\\Local\\Temp\\ccUR1tM6.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_40204.dir\\']
+        ignore line: [ C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj C:\\Users\\awsom\\AppData\\Local\\Temp\\ccuKqYeB.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
         ignore line: [C:/Users/awsom/mingw64/bin/../libexec/gcc/]
@@ -210,12 +210,12 @@ events:
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c13fc.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_c13fc.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c13fc.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c13fc.dir/objects.a]
-        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c13fc.dir/objects.a @CMakeFiles\\cmTC_c13fc.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\gcc.exe  -v -Wl --dependency-file CMakeFiles\\cmTC_c13fc.dir\\link.d -Wl --whole-archive CMakeFiles\\cmTC_c13fc.dir/objects.a -Wl --no-whole-archive -o cmTC_c13fc.exe -Wl --out-implib libcmTC_c13fc.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_40204.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_40204.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_40204.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_40204.dir/objects.a]
+        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_40204.dir/objects.a @CMakeFiles\\cmTC_40204.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\gcc.exe  -v -Wl --dependency-file CMakeFiles\\cmTC_40204.dir\\link.d -Wl --whole-archive CMakeFiles\\cmTC_40204.dir/objects.a -Wl --no-whole-archive -o cmTC_40204.exe -Wl --out-implib libcmTC_40204.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\awsom\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe]
@@ -233,13 +233,13 @@ events:
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c13fc.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_c13fc.']
-        link line: [ C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccyYQgeh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/msvcrt-seh-win32/x86_64-1220-win32-seh-msvcrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_c13fc.exe C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LC:/Users/awsom/mingw64/bin/../lib/gcc -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --dependency-file CMakeFiles\\cmTC_c13fc.dir\\link.d --whole-archive CMakeFiles\\cmTC_c13fc.dir/objects.a --no-whole-archive --out-implib libcmTC_c13fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40204.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_40204.']
+        link line: [ C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\cc0UPVUN.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/msvcrt-seh-win32/x86_64-1220-win32-seh-msvcrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_40204.exe C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LC:/Users/awsom/mingw64/bin/../lib/gcc -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --dependency-file CMakeFiles\\cmTC_40204.dir\\link.d --whole-archive CMakeFiles\\cmTC_40204.dir/objects.a --no-whole-archive --out-implib libcmTC_40204.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
           arg [C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccyYQgeh.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\cc0UPVUN.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -264,7 +264,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_c13fc.exe] ==> ignore
+          arg [cmTC_40204.exe] ==> ignore
           arg [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> obj [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
           arg [-LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> dir [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0]
@@ -274,12 +274,12 @@ events:
           arg [-LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> dir [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..]
           arg [--dependency-file] ==> ignore
-          arg [CMakeFiles\\cmTC_c13fc.dir\\link.d] ==> ignore
+          arg [CMakeFiles\\cmTC_40204.dir\\link.d] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_c13fc.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_40204.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_c13fc.dll.a] ==> ignore
+          arg [libcmTC_40204.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -332,8 +332,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-wua8n4"
-      binary: "C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-wua8n4"
+      source: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wzprw1"
+      binary: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wzprw1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -341,13 +341,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-wua8n4'
+        Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wzprw1'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_fbfe4/fast
-        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fbfe4.dir\\build.make CMakeFiles/cmTC_fbfe4.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-wua8n4'
-        Building CXX object CMakeFiles/cmTC_fbfe4.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\Users\\awsom\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a7e85/fast
+        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a7e85.dir\\build.make CMakeFiles/cmTC_a7e85.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wzprw1'
+        Building CXX object CMakeFiles/cmTC_a7e85.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\awsom\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\awsom\\mingw64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -355,8 +355,8 @@ events:
         Thread model: win32
         Supported LTO compression algorithms: zlib
         gcc version 12.2.0 (x86_64-win32-seh-rev2, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fbfe4.dir\\'
-         C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_fbfe4.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\awsom\\AppData\\Local\\Temp\\cct9eqQE.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7e85.dir\\'
+         C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a7e85.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\awsom\\AppData\\Local\\Temp\\ccV5GHBa.s
         GNU C++17 (x86_64-win32-seh-rev2, Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
         
@@ -383,17 +383,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: af95294c36983cf3639f97fa6a9b3528
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fbfe4.dir\\'
-         C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\awsom\\AppData\\Local\\Temp\\cct9eqQE.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7e85.dir\\'
+         C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\awsom\\AppData\\Local\\Temp\\ccV5GHBa.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;C:/Users/awsom/mingw64/bin/../libexec/gcc/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;C:/Users/awsom/mingw64/bin/../lib/gcc/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_fbfe4.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fbfe4.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_fbfe4.dir/objects.a
-        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_fbfe4.dir/objects.a @CMakeFiles\\cmTC_fbfe4.dir\\objects1.rsp
-        C:\\Users\\awsom\\mingw64\\bin\\g++.exe  -v -Wl,--dependency-file,CMakeFiles\\cmTC_fbfe4.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_fbfe4.dir/objects.a -Wl,--no-whole-archive -o cmTC_fbfe4.exe -Wl,--out-implib,libcmTC_fbfe4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a7e85.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a7e85.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a7e85.dir/objects.a
+        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a7e85.dir/objects.a @CMakeFiles\\cmTC_a7e85.dir\\objects1.rsp
+        C:\\Users\\awsom\\mingw64\\bin\\g++.exe  -v -Wl,--dependency-file,CMakeFiles\\cmTC_a7e85.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_a7e85.dir/objects.a -Wl,--no-whole-archive -o cmTC_a7e85.exe -Wl,--out-implib,libcmTC_a7e85.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\awsom\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
@@ -404,10 +404,10 @@ events:
         gcc version 12.2.0 (x86_64-win32-seh-rev2, Built by MinGW-W64 project) 
         COMPILER_PATH=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;C:/Users/awsom/mingw64/bin/../libexec/gcc/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;C:/Users/awsom/mingw64/bin/../lib/gcc/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fbfe4.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_fbfe4.'
-         C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccV1LumO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/msvcrt-seh-win32/x86_64-1220-win32-seh-msvcrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_fbfe4.exe C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LC:/Users/awsom/mingw64/bin/../lib/gcc -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --dependency-file CMakeFiles\\cmTC_fbfe4.dir\\link.d --whole-archive CMakeFiles\\cmTC_fbfe4.dir/objects.a --no-whole-archive --out-implib libcmTC_fbfe4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fbfe4.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_fbfe4.'
-        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-wua8n4'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7e85.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_a7e85.'
+         C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccTkqpHn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/msvcrt-seh-win32/x86_64-1220-win32-seh-msvcrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_a7e85.exe C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LC:/Users/awsom/mingw64/bin/../lib/gcc -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --dependency-file CMakeFiles\\cmTC_a7e85.dir\\link.d --whole-archive CMakeFiles\\cmTC_a7e85.dir/objects.a --no-whole-archive --out-implib libcmTC_a7e85.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7e85.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_a7e85.'
+        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wzprw1'
         
       exitCode: 0
   -
@@ -445,13 +445,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-wua8n4']
+        ignore line: [Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wzprw1']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_fbfe4/fast]
-        ignore line: [C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fbfe4.dir\\build.make CMakeFiles/cmTC_fbfe4.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/chess_engine3/build/CMakeFiles/CMakeScratch/TryCompile-wua8n4']
-        ignore line: [Building CXX object CMakeFiles/cmTC_fbfe4.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a7e85/fast]
+        ignore line: [C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a7e85.dir\\build.make CMakeFiles/cmTC_a7e85.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wzprw1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a7e85.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\awsom\\mingw64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -459,8 +459,8 @@ events:
         ignore line: [Thread model: win32]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.2.0 (x86_64-win32-seh-rev2  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fbfe4.dir\\']
-        ignore line: [ C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_fbfe4.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\awsom\\AppData\\Local\\Temp\\cct9eqQE.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7e85.dir\\']
+        ignore line: [ C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a7e85.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\awsom\\AppData\\Local\\Temp\\ccV5GHBa.s]
         ignore line: [GNU C++17 (x86_64-win32-seh-rev2  Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
         ignore line: []
@@ -487,8 +487,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: af95294c36983cf3639f97fa6a9b3528]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fbfe4.dir\\']
-        ignore line: [ C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\awsom\\AppData\\Local\\Temp\\cct9eqQE.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7e85.dir\\']
+        ignore line: [ C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\awsom\\AppData\\Local\\Temp\\ccV5GHBa.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
         ignore line: [C:/Users/awsom/mingw64/bin/../libexec/gcc/]
@@ -499,12 +499,12 @@ events:
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_fbfe4.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_fbfe4.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fbfe4.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_fbfe4.dir/objects.a]
-        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_fbfe4.dir/objects.a @CMakeFiles\\cmTC_fbfe4.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\g++.exe  -v -Wl --dependency-file CMakeFiles\\cmTC_fbfe4.dir\\link.d -Wl --whole-archive CMakeFiles\\cmTC_fbfe4.dir/objects.a -Wl --no-whole-archive -o cmTC_fbfe4.exe -Wl --out-implib libcmTC_fbfe4.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7e85.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a7e85.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a7e85.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a7e85.dir/objects.a]
+        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a7e85.dir/objects.a @CMakeFiles\\cmTC_a7e85.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\awsom\\mingw64\\bin\\g++.exe  -v -Wl --dependency-file CMakeFiles\\cmTC_a7e85.dir\\link.d -Wl --whole-archive CMakeFiles\\cmTC_a7e85.dir/objects.a -Wl --no-whole-archive -o cmTC_a7e85.exe -Wl --out-implib libcmTC_a7e85.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\awsom\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe]
@@ -522,13 +522,13 @@ events:
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fbfe4.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_fbfe4.']
-        link line: [ C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccV1LumO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/msvcrt-seh-win32/x86_64-1220-win32-seh-msvcrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_fbfe4.exe C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LC:/Users/awsom/mingw64/bin/../lib/gcc -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --dependency-file CMakeFiles\\cmTC_fbfe4.dir\\link.d --whole-archive CMakeFiles\\cmTC_fbfe4.dir/objects.a --no-whole-archive --out-implib libcmTC_fbfe4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7e85.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_a7e85.']
+        link line: [ C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccTkqpHn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/mingw-builds/msvcrt-seh-win32/x86_64-1220-win32-seh-msvcrt-rt_v10-rev2/mingw64 -m i386pep -Bdynamic -o cmTC_a7e85.exe C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LC:/Users/awsom/mingw64/bin/../lib/gcc -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --dependency-file CMakeFiles\\cmTC_a7e85.dir\\link.d --whole-archive CMakeFiles\\cmTC_a7e85.dir/objects.a --no-whole-archive --out-implib libcmTC_a7e85.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
           arg [C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/awsom/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccV1LumO.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\awsom\\AppData\\Local\\Temp\\ccTkqpHn.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -553,7 +553,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_fbfe4.exe] ==> ignore
+          arg [cmTC_a7e85.exe] ==> ignore
           arg [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> obj [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
           arg [-LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> dir [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0]
@@ -563,12 +563,12 @@ events:
           arg [-LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> dir [C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..]
           arg [--dependency-file] ==> ignore
-          arg [CMakeFiles\\cmTC_fbfe4.dir\\link.d] ==> ignore
+          arg [CMakeFiles\\cmTC_a7e85.dir\\link.d] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_fbfe4.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_a7e85.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_fbfe4.dll.a] ==> ignore
+          arg [libcmTC_a7e85.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -611,4 +611,227 @@ events:
         implicit fwks: []
       
       
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/CMakeLists.txt:29 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0qonpu"
+      binary: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0qonpu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0qonpu'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_15e73/fast
+        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_15e73.dir\\build.make CMakeFiles/cmTC_15e73.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0qonpu'
+        Building C object CMakeFiles/cmTC_15e73.dir/src.c.obj
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -o CMakeFiles\\cmTC_15e73.dir\\src.c.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0qonpu\\src.c
+        Linking C executable cmTC_15e73.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_15e73.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_15e73.dir/objects.a
+        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_15e73.dir/objects.a @CMakeFiles\\cmTC_15e73.dir\\objects1.rsp
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -Wl,--dependency-file,CMakeFiles\\cmTC_15e73.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_15e73.dir/objects.a -Wl,--no-whole-archive -o cmTC_15e73.exe -Wl,--out-implib,libcmTC_15e73.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_15e73.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0qonpu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:64 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-1qt9rd"
+      binary: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-1qt9rd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_MODULE_PATH: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/cmake;C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-1qt9rd'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f7043/fast
+        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f7043.dir\\build.make CMakeFiles/cmTC_f7043.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-1qt9rd'
+        Building C object CMakeFiles/cmTC_f7043.dir/src.c.obj
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -o CMakeFiles\\cmTC_f7043.dir\\src.c.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qt9rd\\src.c
+        Linking C executable cmTC_f7043.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f7043.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_f7043.dir/objects.a
+        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_f7043.dir/objects.a @CMakeFiles\\cmTC_f7043.dir\\objects1.rsp
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--dependency-file,CMakeFiles\\cmTC_f7043.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_f7043.dir/objects.a -Wl,--no-whole-archive -o cmTC_f7043.exe -Wl,--out-implib,libcmTC_f7043.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_f7043.dir\\linkLibs.rsp
+        C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_f7043.dir/objects.a(src.c.obj):src.c:(.text+0x35): undefined reference to `pthread_create'
+        C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_f7043.dir/objects.a(src.c.obj):src.c:(.text+0x41): undefined reference to `pthread_detach'
+        C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_f7043.dir/objects.a(src.c.obj):src.c:(.text+0x4d): undefined reference to `pthread_cancel'
+        C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_f7043.dir/objects.a(src.c.obj):src.c:(.text+0x5e): undefined reference to `pthread_join'
+        C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_f7043.dir/objects.a(src.c.obj):src.c:(.text+0x68): undefined reference to `pthread_exit'
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_f7043.dir\\build.make:101: cmTC_f7043.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-1qt9rd'
+        mingw32-make.exe: *** [Makefile:126: cmTC_f7043/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:64 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wqr9gc"
+      binary: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wqr9gc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/cmake;C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wqr9gc'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_66b36/fast
+        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_66b36.dir\\build.make CMakeFiles/cmTC_66b36.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wqr9gc'
+        Building C object CMakeFiles/cmTC_66b36.dir/CheckFunctionExists.c.obj
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu99 -o CMakeFiles\\cmTC_66b36.dir\\CheckFunctionExists.c.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wqr9gc\\CheckFunctionExists.c
+        Linking C executable cmTC_66b36.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_66b36.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_66b36.dir/objects.a
+        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_66b36.dir/objects.a @CMakeFiles\\cmTC_66b36.dir\\objects1.rsp
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--dependency-file,CMakeFiles\\cmTC_66b36.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_66b36.dir/objects.a -Wl,--no-whole-archive -o cmTC_66b36.exe -Wl,--out-implib,libcmTC_66b36.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_66b36.dir\\linkLibs.rsp
+        C:/Users/awsom/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lpthreads: No such file or directory
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_66b36.dir\\build.make:101: cmTC_66b36.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-wqr9gc'
+        mingw32-make.exe: *** [Makefile:126: cmTC_66b36/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:64 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-hbtqz1"
+      binary: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-hbtqz1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/cmake;C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-hbtqz1'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5f2e2/fast
+        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5f2e2.dir\\build.make CMakeFiles/cmTC_5f2e2.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-hbtqz1'
+        Building C object CMakeFiles/cmTC_5f2e2.dir/CheckFunctionExists.c.obj
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu99 -o CMakeFiles\\cmTC_5f2e2.dir\\CheckFunctionExists.c.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbtqz1\\CheckFunctionExists.c
+        Linking C executable cmTC_5f2e2.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5f2e2.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5f2e2.dir/objects.a
+        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_5f2e2.dir/objects.a @CMakeFiles\\cmTC_5f2e2.dir\\objects1.rsp
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--dependency-file,CMakeFiles\\cmTC_5f2e2.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_5f2e2.dir/objects.a -Wl,--no-whole-archive -o cmTC_5f2e2.exe -Wl,--out-implib,libcmTC_5f2e2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5f2e2.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-hbtqz1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:291 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0miofp"
+      binary: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0miofp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/cmake;C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0miofp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a548e/fast
+        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a548e.dir\\build.make CMakeFiles/cmTC_a548e.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0miofp'
+        Building C object CMakeFiles/cmTC_a548e.dir/CheckIncludeFile.c.obj
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_a548e.dir\\CheckIncludeFile.c.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0miofp\\CheckIncludeFile.c
+        Linking C executable cmTC_a548e.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a548e.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a548e.dir/objects.a
+        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a548e.dir/objects.a @CMakeFiles\\cmTC_a548e.dir\\objects1.rsp
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--dependency-file,CMakeFiles\\cmTC_a548e.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_a548e.dir/objects.a -Wl,--no-whole-archive -o cmTC_a548e.exe -Wl,--out-implib,libcmTC_a548e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a548e.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-0miofp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:292 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-bc2p1u"
+      binary: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-bc2p1u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/cmake;C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-bc2p1u'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/awsom/mingw64/bin/mingw32-make.exe -f Makefile cmTC_39155/fast
+        C:/Users/awsom/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_39155.dir\\build.make CMakeFiles/cmTC_39155.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-bc2p1u'
+        Building C object CMakeFiles/cmTC_39155.dir/CheckIncludeFile.c.obj
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_39155.dir\\CheckIncludeFile.c.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bc2p1u\\CheckIncludeFile.c
+        Linking C executable cmTC_39155.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_39155.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_39155.dir/objects.a
+        C:\\Users\\awsom\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_39155.dir/objects.a @CMakeFiles\\cmTC_39155.dir\\objects1.rsp
+        C:\\Users\\awsom\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--dependency-file,CMakeFiles\\cmTC_39155.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_39155.dir/objects.a -Wl,--no-whole-archive -o cmTC_39155.exe -Wl,--out-implib,libcmTC_39155.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_39155.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Stuff/Programming/Cpp/Sky-Spectre/build/CMakeFiles/CMakeScratch/TryCompile-bc2p1u'
+        
+      exitCode: 0
 ...
