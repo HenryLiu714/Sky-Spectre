@@ -138,6 +138,102 @@ namespace eval {
         return score;
     }
 
+    /**
+     * Gets score from piece tables (piece locations on board)
+     * @param board The board being evaluated
+     * @return The total score from the positions of each of the pieces
+    */
+    int position_score(re::Board& board) {
+        int position_score = 0;
+        std::vector<char> positions;
+        int num_pieces = 0;
+
+        positions = re::serialize_bitboard(board.bitboards[re::W | re::PAWN]);
+        for (char position : positions) {
+            position_score += W_PAWN_TAB[(int) position];
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::W | re::KNIGHT]);
+        for (char position : positions) {
+            position_score += KNIGHT_TAB[(int) position];
+            num_pieces ++;
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::W | re::BISHOP]);
+        for (char position : positions) {
+            position_score += KNIGHT_TAB[(int) position];
+            num_pieces ++;
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::W | re::ROOK]);
+        for (char position : positions) {
+            position_score += W_ROOK_TAB[(int) position];
+            num_pieces ++;
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::W | re::QUEEN]);
+        for (char position : positions) {
+            position_score += QUEEN_TAB[(int) position];
+            num_pieces ++;
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::B | re::PAWN]);
+        for (char position : positions) {
+            position_score -= B_PAWN_TAB[(int) position];
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::B | re::KNIGHT]);
+        for (char position : positions) {
+            position_score -= KNIGHT_TAB[(int) position];
+            num_pieces ++;
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::B | re::BISHOP]);
+        for (char position : positions) {
+            position_score -= KNIGHT_TAB[(int) position];
+            num_pieces ++;
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::B | re::ROOK]);
+        for (char position : positions) {
+            position_score -= B_ROOK_TAB[(int) position];
+            num_pieces ++;
+        }
+
+        positions = re::serialize_bitboard(board.bitboards[re::B | re::QUEEN]);
+        for (char position : positions) {
+            position_score -= QUEEN_TAB[(int) position];
+            num_pieces ++;
+        }
+
+        // Endgame
+        if (num_pieces < 5) {
+            positions = re::serialize_bitboard(board.bitboards[re::W | re::KING]);
+            for (char position : positions) {
+                position_score += W_KING_END[(int) position];
+            }
+
+            positions = re::serialize_bitboard(board.bitboards[re::B | re::KING]);
+            for (char position : positions) {
+                position_score -= B_KING_END[(int) position];
+            }
+        } 
+
+        else {
+            positions = re::serialize_bitboard(board.bitboards[re::W | re::KING]);
+            for (char position : positions) {
+                position_score += W_KING_TAB[(int) position];
+            }
+
+            positions = re::serialize_bitboard(board.bitboards[re::B | re::KING]);
+            for (char position : positions) {
+                position_score -= B_KING_TAB[(int) position];
+            }
+        }
+
+        return position_score;
+    }
+
     int checkmate_score(re::Board& board) {
         if (moves::in_checkmate(board)) {
             if (board.current_turn == re::W) {return 10000000;}
@@ -159,8 +255,11 @@ namespace eval {
         if (moves::in_stalemate(board)) {
             return 0;
         }
+        
+        int piece_score = pieces_score(board);
 
-        score += pieces_score(board);
+        score += piece_score;
+        score += position_score(board);
         score += checkmate_score(board);
         
         if (transpositions.size() >= MAX_TABLE_SIZE) {

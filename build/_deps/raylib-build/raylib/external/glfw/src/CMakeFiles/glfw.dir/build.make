@@ -52,7 +52,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\chess_engine3
+CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre\build
@@ -70,7 +70,7 @@ include _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.ma
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/context.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: _deps/raylib-src/src/external/glfw/src/context.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj -MF CMakeFiles\glfw.dir\context.c.obj.d -o CMakeFiles\glfw.dir\context.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\context.c
@@ -85,7 +85,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.s: cma
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/init.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: _deps/raylib-src/src/external/glfw/src/init.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj -MF CMakeFiles\glfw.dir\init.c.obj.d -o CMakeFiles\glfw.dir\init.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\init.c
@@ -100,7 +100,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/input.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: _deps/raylib-src/src/external/glfw/src/input.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj -MF CMakeFiles\glfw.dir\input.c.obj.d -o CMakeFiles\glfw.dir\input.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\input.c
@@ -115,7 +115,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/monitor.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: _deps/raylib-src/src/external/glfw/src/monitor.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj -MF CMakeFiles\glfw.dir\monitor.c.obj.d -o CMakeFiles\glfw.dir\monitor.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\monitor.c
@@ -130,7 +130,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cma
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/platform.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: _deps/raylib-src/src/external/glfw/src/platform.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj -MF CMakeFiles\glfw.dir\platform.c.obj.d -o CMakeFiles\glfw.dir\platform.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\platform.c
@@ -145,7 +145,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.s: cm
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/vulkan.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: _deps/raylib-src/src/external/glfw/src/vulkan.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj -MF CMakeFiles\glfw.dir\vulkan.c.obj.d -o CMakeFiles\glfw.dir\vulkan.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\vulkan.c
@@ -160,7 +160,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.s: cmak
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/window.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: _deps/raylib-src/src/external/glfw/src/window.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj -MF CMakeFiles\glfw.dir\window.c.obj.d -o CMakeFiles\glfw.dir\window.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\window.c
@@ -175,7 +175,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.s: cmak
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/egl_context.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: _deps/raylib-src/src/external/glfw/src/egl_context.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj -MF CMakeFiles\glfw.dir\egl_context.c.obj.d -o CMakeFiles\glfw.dir\egl_context.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\egl_context.c
@@ -190,7 +190,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s:
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: _deps/raylib-src/src/external/glfw/src/osmesa_context.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj -MF CMakeFiles\glfw.dir\osmesa_context.c.obj.d -o CMakeFiles\glfw.dir\osmesa_context.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\osmesa_context.c
@@ -205,7 +205,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/null_init.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: _deps/raylib-src/src/external/glfw/src/null_init.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj -MF CMakeFiles\glfw.dir\null_init.c.obj.d -o CMakeFiles\glfw.dir\null_init.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\null_init.c
@@ -220,7 +220,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.s: c
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/null_monitor.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: _deps/raylib-src/src/external/glfw/src/null_monitor.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj -MF CMakeFiles\glfw.dir\null_monitor.c.obj.d -o CMakeFiles\glfw.dir\null_monitor.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\null_monitor.c
@@ -235,7 +235,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.s
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/null_window.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: _deps/raylib-src/src/external/glfw/src/null_window.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj -MF CMakeFiles\glfw.dir\null_window.c.obj.d -o CMakeFiles\glfw.dir\null_window.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\null_window.c
@@ -250,7 +250,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.s:
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/null_joystick.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: _deps/raylib-src/src/external/glfw/src/null_joystick.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj -MF CMakeFiles\glfw.dir\null_joystick.c.obj.d -o CMakeFiles\glfw.dir\null_joystick.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\null_joystick.c
@@ -265,7 +265,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/win32_module.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: _deps/raylib-src/src/external/glfw/src/win32_module.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj -MF CMakeFiles\glfw.dir\win32_module.c.obj.d -o CMakeFiles\glfw.dir\win32_module.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_module.c
@@ -280,7 +280,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.s
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/win32_time.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: _deps/raylib-src/src/external/glfw/src/win32_time.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj -MF CMakeFiles\glfw.dir\win32_time.c.obj.d -o CMakeFiles\glfw.dir\win32_time.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_time.c
@@ -295,7 +295,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.s: 
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/win32_thread.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: _deps/raylib-src/src/external/glfw/src/win32_thread.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj -MF CMakeFiles\glfw.dir\win32_thread.c.obj.d -o CMakeFiles\glfw.dir\win32_thread.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_thread.c
@@ -310,7 +310,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.s
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/win32_init.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: _deps/raylib-src/src/external/glfw/src/win32_init.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj -MF CMakeFiles\glfw.dir\win32_init.c.obj.d -o CMakeFiles\glfw.dir\win32_init.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_init.c
@@ -325,7 +325,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.s: 
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/win32_joystick.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: _deps/raylib-src/src/external/glfw/src/win32_joystick.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj -MF CMakeFiles\glfw.dir\win32_joystick.c.obj.d -o CMakeFiles\glfw.dir\win32_joystick.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_joystick.c
@@ -340,7 +340,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/win32_monitor.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: _deps/raylib-src/src/external/glfw/src/win32_monitor.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj -MF CMakeFiles\glfw.dir\win32_monitor.c.obj.d -o CMakeFiles\glfw.dir\win32_monitor.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_monitor.c
@@ -355,7 +355,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/win32_window.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: _deps/raylib-src/src/external/glfw/src/win32_window.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj -MF CMakeFiles\glfw.dir\win32_window.c.obj.d -o CMakeFiles\glfw.dir\win32_window.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\win32_window.c
@@ -370,7 +370,7 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.s
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/flags.make
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/external/glfw/src/wgl_context.c
+_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: _deps/raylib-src/src/external/glfw/src/wgl_context.c
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -MD -MT _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj -MF CMakeFiles\glfw.dir\wgl_context.c.obj.d -o CMakeFiles\glfw.dir\wgl_context.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src\wgl_context.c
@@ -446,6 +446,6 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/clean:
 .PHONY : _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/clean
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\Programming\Cpp\chess_engine3 C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\Programming\Cpp\Sky-Spectre C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/depend
 

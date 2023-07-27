@@ -1,4 +1,4 @@
-# Install script for directory: C:/Stuff/Programming/Cpp/chess_engine3
+# Install script for directory: C:/Stuff/Programming/Cpp/Sky-Spectre
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

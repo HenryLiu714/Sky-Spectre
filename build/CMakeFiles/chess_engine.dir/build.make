@@ -52,7 +52,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\chess_engine3
+CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre\build
@@ -70,93 +70,93 @@ include CMakeFiles/chess_engine.dir/flags.make
 
 CMakeFiles/chess_engine.dir/src/main.cpp.obj: CMakeFiles/chess_engine.dir/flags.make
 CMakeFiles/chess_engine.dir/src/main.cpp.obj: CMakeFiles/chess_engine.dir/includes_CXX.rsp
-CMakeFiles/chess_engine.dir/src/main.cpp.obj: C:/Stuff/Programming/Cpp/chess_engine3/src/main.cpp
+CMakeFiles/chess_engine.dir/src/main.cpp.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/src/main.cpp
 CMakeFiles/chess_engine.dir/src/main.cpp.obj: CMakeFiles/chess_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chess_engine.dir/src/main.cpp.obj"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/main.cpp.obj -MF CMakeFiles\chess_engine.dir\src\main.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\main.cpp.obj -c C:\Stuff\Programming\Cpp\chess_engine3\src\main.cpp
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/main.cpp.obj -MF CMakeFiles\chess_engine.dir\src\main.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\main.cpp.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\src\main.cpp
 
 CMakeFiles/chess_engine.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chess_engine.dir/src/main.cpp.i"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\chess_engine3\src\main.cpp > CMakeFiles\chess_engine.dir\src\main.cpp.i
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\Sky-Spectre\src\main.cpp > CMakeFiles\chess_engine.dir\src\main.cpp.i
 
 CMakeFiles/chess_engine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chess_engine.dir/src/main.cpp.s"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\chess_engine3\src\main.cpp -o CMakeFiles\chess_engine.dir\src\main.cpp.s
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\Sky-Spectre\src\main.cpp -o CMakeFiles\chess_engine.dir\src\main.cpp.s
 
 CMakeFiles/chess_engine.dir/src/display.cpp.obj: CMakeFiles/chess_engine.dir/flags.make
 CMakeFiles/chess_engine.dir/src/display.cpp.obj: CMakeFiles/chess_engine.dir/includes_CXX.rsp
-CMakeFiles/chess_engine.dir/src/display.cpp.obj: C:/Stuff/Programming/Cpp/chess_engine3/src/display.cpp
+CMakeFiles/chess_engine.dir/src/display.cpp.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/src/display.cpp
 CMakeFiles/chess_engine.dir/src/display.cpp.obj: CMakeFiles/chess_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chess_engine.dir/src/display.cpp.obj"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/display.cpp.obj -MF CMakeFiles\chess_engine.dir\src\display.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\display.cpp.obj -c C:\Stuff\Programming\Cpp\chess_engine3\src\display.cpp
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/display.cpp.obj -MF CMakeFiles\chess_engine.dir\src\display.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\display.cpp.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\src\display.cpp
 
 CMakeFiles/chess_engine.dir/src/display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chess_engine.dir/src/display.cpp.i"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\chess_engine3\src\display.cpp > CMakeFiles\chess_engine.dir\src\display.cpp.i
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\Sky-Spectre\src\display.cpp > CMakeFiles\chess_engine.dir\src\display.cpp.i
 
 CMakeFiles/chess_engine.dir/src/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chess_engine.dir/src/display.cpp.s"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\chess_engine3\src\display.cpp -o CMakeFiles\chess_engine.dir\src\display.cpp.s
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\Sky-Spectre\src\display.cpp -o CMakeFiles\chess_engine.dir\src\display.cpp.s
 
 CMakeFiles/chess_engine.dir/src/moves.cpp.obj: CMakeFiles/chess_engine.dir/flags.make
 CMakeFiles/chess_engine.dir/src/moves.cpp.obj: CMakeFiles/chess_engine.dir/includes_CXX.rsp
-CMakeFiles/chess_engine.dir/src/moves.cpp.obj: C:/Stuff/Programming/Cpp/chess_engine3/src/moves.cpp
+CMakeFiles/chess_engine.dir/src/moves.cpp.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/src/moves.cpp
 CMakeFiles/chess_engine.dir/src/moves.cpp.obj: CMakeFiles/chess_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chess_engine.dir/src/moves.cpp.obj"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/moves.cpp.obj -MF CMakeFiles\chess_engine.dir\src\moves.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\moves.cpp.obj -c C:\Stuff\Programming\Cpp\chess_engine3\src\moves.cpp
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/moves.cpp.obj -MF CMakeFiles\chess_engine.dir\src\moves.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\moves.cpp.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\src\moves.cpp
 
 CMakeFiles/chess_engine.dir/src/moves.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chess_engine.dir/src/moves.cpp.i"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\chess_engine3\src\moves.cpp > CMakeFiles\chess_engine.dir\src\moves.cpp.i
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\Sky-Spectre\src\moves.cpp > CMakeFiles\chess_engine.dir\src\moves.cpp.i
 
 CMakeFiles/chess_engine.dir/src/moves.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chess_engine.dir/src/moves.cpp.s"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\chess_engine3\src\moves.cpp -o CMakeFiles\chess_engine.dir\src\moves.cpp.s
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\Sky-Spectre\src\moves.cpp -o CMakeFiles\chess_engine.dir\src\moves.cpp.s
 
 CMakeFiles/chess_engine.dir/src/references.cpp.obj: CMakeFiles/chess_engine.dir/flags.make
 CMakeFiles/chess_engine.dir/src/references.cpp.obj: CMakeFiles/chess_engine.dir/includes_CXX.rsp
-CMakeFiles/chess_engine.dir/src/references.cpp.obj: C:/Stuff/Programming/Cpp/chess_engine3/src/references.cpp
+CMakeFiles/chess_engine.dir/src/references.cpp.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/src/references.cpp
 CMakeFiles/chess_engine.dir/src/references.cpp.obj: CMakeFiles/chess_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chess_engine.dir/src/references.cpp.obj"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/references.cpp.obj -MF CMakeFiles\chess_engine.dir\src\references.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\references.cpp.obj -c C:\Stuff\Programming\Cpp\chess_engine3\src\references.cpp
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/references.cpp.obj -MF CMakeFiles\chess_engine.dir\src\references.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\references.cpp.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\src\references.cpp
 
 CMakeFiles/chess_engine.dir/src/references.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chess_engine.dir/src/references.cpp.i"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\chess_engine3\src\references.cpp > CMakeFiles\chess_engine.dir\src\references.cpp.i
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\Sky-Spectre\src\references.cpp > CMakeFiles\chess_engine.dir\src\references.cpp.i
 
 CMakeFiles/chess_engine.dir/src/references.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chess_engine.dir/src/references.cpp.s"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\chess_engine3\src\references.cpp -o CMakeFiles\chess_engine.dir\src\references.cpp.s
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\Sky-Spectre\src\references.cpp -o CMakeFiles\chess_engine.dir\src\references.cpp.s
 
 CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: CMakeFiles/chess_engine.dir/flags.make
 CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: CMakeFiles/chess_engine.dir/includes_CXX.rsp
-CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: C:/Stuff/Programming/Cpp/chess_engine3/src/evaluation.cpp
+CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/src/evaluation.cpp
 CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj: CMakeFiles/chess_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj -MF CMakeFiles\chess_engine.dir\src\evaluation.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\evaluation.cpp.obj -c C:\Stuff\Programming\Cpp\chess_engine3\src\evaluation.cpp
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj -MF CMakeFiles\chess_engine.dir\src\evaluation.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\evaluation.cpp.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\src\evaluation.cpp
 
 CMakeFiles/chess_engine.dir/src/evaluation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chess_engine.dir/src/evaluation.cpp.i"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\chess_engine3\src\evaluation.cpp > CMakeFiles\chess_engine.dir\src\evaluation.cpp.i
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\Sky-Spectre\src\evaluation.cpp > CMakeFiles\chess_engine.dir\src\evaluation.cpp.i
 
 CMakeFiles/chess_engine.dir/src/evaluation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chess_engine.dir/src/evaluation.cpp.s"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\chess_engine3\src\evaluation.cpp -o CMakeFiles\chess_engine.dir\src\evaluation.cpp.s
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\Sky-Spectre\src\evaluation.cpp -o CMakeFiles\chess_engine.dir\src\evaluation.cpp.s
 
 CMakeFiles/chess_engine.dir/src/search.cpp.obj: CMakeFiles/chess_engine.dir/flags.make
 CMakeFiles/chess_engine.dir/src/search.cpp.obj: CMakeFiles/chess_engine.dir/includes_CXX.rsp
-CMakeFiles/chess_engine.dir/src/search.cpp.obj: C:/Stuff/Programming/Cpp/chess_engine3/src/search.cpp
+CMakeFiles/chess_engine.dir/src/search.cpp.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/src/search.cpp
 CMakeFiles/chess_engine.dir/src/search.cpp.obj: CMakeFiles/chess_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chess_engine.dir/src/search.cpp.obj"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/search.cpp.obj -MF CMakeFiles\chess_engine.dir\src\search.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\search.cpp.obj -c C:\Stuff\Programming\Cpp\chess_engine3\src\search.cpp
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chess_engine.dir/src/search.cpp.obj -MF CMakeFiles\chess_engine.dir\src\search.cpp.obj.d -o CMakeFiles\chess_engine.dir\src\search.cpp.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\src\search.cpp
 
 CMakeFiles/chess_engine.dir/src/search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chess_engine.dir/src/search.cpp.i"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\chess_engine3\src\search.cpp > CMakeFiles\chess_engine.dir\src\search.cpp.i
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\Programming\Cpp\Sky-Spectre\src\search.cpp > CMakeFiles\chess_engine.dir\src\search.cpp.i
 
 CMakeFiles/chess_engine.dir/src/search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chess_engine.dir/src/search.cpp.s"
-	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\chess_engine3\src\search.cpp -o CMakeFiles\chess_engine.dir\src\search.cpp.s
+	C:\Users\awsom\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\Programming\Cpp\Sky-Spectre\src\search.cpp -o CMakeFiles\chess_engine.dir\src\search.cpp.s
 
 # Object files for target chess_engine
 chess_engine_OBJECTS = \
@@ -195,6 +195,6 @@ CMakeFiles/chess_engine.dir/clean:
 .PHONY : CMakeFiles/chess_engine.dir/clean
 
 CMakeFiles/chess_engine.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\Programming\Cpp\chess_engine3 C:\Stuff\Programming\Cpp\chess_engine3 C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles\chess_engine.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\Programming\Cpp\Sky-Spectre C:\Stuff\Programming\Cpp\Sky-Spectre C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles\chess_engine.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/chess_engine.dir/depend
 

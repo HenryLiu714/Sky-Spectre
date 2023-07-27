@@ -52,7 +52,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\chess_engine3
+CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre\build
@@ -70,7 +70,7 @@ include _deps/raylib-build/raylib/CMakeFiles/raylib.dir/flags.make
 
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/flags.make
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/rcore.c
+_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: _deps/raylib-src/src/rcore.c
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj -MF CMakeFiles\raylib.dir\rcore.c.obj.d -o CMakeFiles\raylib.dir\rcore.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rcore.c
@@ -85,7 +85,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.s: cmake_force
 
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/flags.make
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/rmodels.c
+_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: _deps/raylib-src/src/rmodels.c
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj -MF CMakeFiles\raylib.dir\rmodels.c.obj.d -o CMakeFiles\raylib.dir\rmodels.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rmodels.c
@@ -100,7 +100,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.s: cmake_force
 
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/flags.make
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/rshapes.c
+_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: _deps/raylib-src/src/rshapes.c
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj -MF CMakeFiles\raylib.dir\rshapes.c.obj.d -o CMakeFiles\raylib.dir\rshapes.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rshapes.c
@@ -115,7 +115,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.s: cmake_force
 
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/flags.make
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/rtext.c
+_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: _deps/raylib-src/src/rtext.c
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj -MF CMakeFiles\raylib.dir\rtext.c.obj.d -o CMakeFiles\raylib.dir\rtext.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rtext.c
@@ -130,7 +130,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.s: cmake_force
 
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/flags.make
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/rtextures.c
+_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: _deps/raylib-src/src/rtextures.c
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj -MF CMakeFiles\raylib.dir\rtextures.c.obj.d -o CMakeFiles\raylib.dir\rtextures.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\rtextures.c
@@ -145,7 +145,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.s: cmake_force
 
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/flags.make
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-_deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/utils.c
+_deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: _deps/raylib-src/src/utils.c
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj -MF CMakeFiles\raylib.dir\utils.c.obj.d -o CMakeFiles\raylib.dir\utils.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\utils.c
@@ -160,7 +160,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.s: cmake_force
 
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/flags.make
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/includes_C.rsp
-_deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C:/Stuff/Programming/Cpp/Sky-Spectre/build/_deps/raylib-src/src/raudio.c
+_deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: _deps/raylib-src/src/raudio.c
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\Programming\Cpp\Sky-Spectre\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj"
 	cd /d C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib && C:\Users\awsom\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj -MF CMakeFiles\raylib.dir\raudio.c.obj.d -o CMakeFiles\raylib.dir\raudio.c.obj -c C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\raudio.c
@@ -250,6 +250,6 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/clean:
 .PHONY : _deps/raylib-build/raylib/CMakeFiles/raylib.dir/clean
 
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\Programming\Cpp\chess_engine3 C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\CMakeFiles\raylib.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\Programming\Cpp\Sky-Spectre C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\CMakeFiles\raylib.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/raylib-build/raylib/CMakeFiles/raylib.dir/depend
 

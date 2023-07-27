@@ -1,5 +1,5 @@
 CMakeFiles/chess_engine.dir/src/main.cpp.obj: \
- C:\Stuff\Programming\Cpp\chess_engine3\src\main.cpp \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\main.cpp \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iostream \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -155,7 +155,7 @@ CMakeFiles/chess_engine.dir/src/main.cpp.obj: \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/_timeval.h \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/parse_numbers.h \
- C:\Stuff\Programming\Cpp\chess_engine3\src\references.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\references.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/assert.h \
@@ -331,7 +331,7 @@ CMakeFiles/chess_engine.dir/src/main.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/memory_resource \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/uses_allocator_args.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/variant \
- C:\Stuff\Programming\Cpp\chess_engine3\src\display.h \
- C:\Stuff\Programming\Cpp\chess_engine3\src\moves.h \
- C:\Stuff\Programming\Cpp\chess_engine3\src\evaluation.h \
- C:\Stuff\Programming\Cpp\chess_engine3\src\search.h
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\display.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\moves.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\evaluation.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\search.h

@@ -1,6 +1,6 @@
 CMakeFiles/chess_engine.dir/src/references.cpp.obj: \
- C:\Stuff\Programming\Cpp\chess_engine3\src\references.cpp \
- C:\Stuff\Programming\Cpp\chess_engine3\src\references.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\references.cpp \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\references.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

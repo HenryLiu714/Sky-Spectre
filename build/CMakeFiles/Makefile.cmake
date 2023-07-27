@@ -130,6 +130,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Templates/CPackConfig.cmake.in"
+  "C:/Stuff/Programming/Cpp/Sky-Spectre/CMakeLists.txt"
   "CMakeFiles/3.27.0-rc3/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.0-rc3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.0-rc3/CMakeRCCompiler.cmake"
@@ -155,7 +156,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in"
   "_deps/raylib-src/src/external/glfw/CMakeLists.txt"
   "_deps/raylib-src/src/external/glfw/src/CMakeLists.txt"
-  "C:/Stuff/Programming/Cpp/chess_engine3/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

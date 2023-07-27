@@ -31,8 +31,8 @@ int main () {
     chess_pieces = LoadTextureFromImage(pieces_image);
 
     re::Board board;
-    board.update_with_fen((char*) "4k2r/8/8/8/8/8/8/3K3Q w k - 0 1");
-    //board.update_with_fen((char*) "rnbqkbnr/ppp1pppp/8/1B1p4/8/8/PPPPPPPP/RNBQK1NR b KQkq - 0 1");
+    //board.update_with_fen((char*) "4k2r/8/8/8/8/8/8/3K3Q w k - 0 1");
+    board.update_with_fen((char*) "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
 
     // Initialize zobrist hashing
     eval::initialize_hash();
@@ -71,7 +71,7 @@ int main () {
 
         if (counter == 0) {
             auto t_start = std::chrono::high_resolution_clock::now();
-            re::Move move = search::search_depth(board, 5);
+            re::Move move = search::search_depth(board, 3);
 
             // auto t_end = std::chrono::high_resolution_clock::now();
 

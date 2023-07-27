@@ -52,7 +52,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\chess_engine3
+CMAKE_SOURCE_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Stuff\Programming\Cpp\Sky-Spectre\build
@@ -82,6 +82,6 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\Programming\Cpp\chess_engine3 C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\Programming\Cpp\Sky-Spectre C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-src\src\external\glfw\src C:\Stuff\Programming\Cpp\Sky-Spectre\build C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src C:\Stuff\Programming\Cpp\Sky-Spectre\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/depend
 

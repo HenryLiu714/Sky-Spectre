@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Stuff/Programming/Cpp/chess_engine3/src/display.cpp" "CMakeFiles/chess_engine.dir/src/display.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/display.cpp.obj.d"
-  "C:/Stuff/Programming/Cpp/chess_engine3/src/evaluation.cpp" "CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj.d"
-  "C:/Stuff/Programming/Cpp/chess_engine3/src/main.cpp" "CMakeFiles/chess_engine.dir/src/main.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/main.cpp.obj.d"
-  "C:/Stuff/Programming/Cpp/chess_engine3/src/moves.cpp" "CMakeFiles/chess_engine.dir/src/moves.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/moves.cpp.obj.d"
-  "C:/Stuff/Programming/Cpp/chess_engine3/src/references.cpp" "CMakeFiles/chess_engine.dir/src/references.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/references.cpp.obj.d"
-  "C:/Stuff/Programming/Cpp/chess_engine3/src/search.cpp" "CMakeFiles/chess_engine.dir/src/search.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/search.cpp.obj.d"
+  "C:/Stuff/Programming/Cpp/Sky-Spectre/src/display.cpp" "CMakeFiles/chess_engine.dir/src/display.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/display.cpp.obj.d"
+  "C:/Stuff/Programming/Cpp/Sky-Spectre/src/evaluation.cpp" "CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj.d"
+  "C:/Stuff/Programming/Cpp/Sky-Spectre/src/main.cpp" "CMakeFiles/chess_engine.dir/src/main.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/main.cpp.obj.d"
+  "C:/Stuff/Programming/Cpp/Sky-Spectre/src/moves.cpp" "CMakeFiles/chess_engine.dir/src/moves.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/moves.cpp.obj.d"
+  "C:/Stuff/Programming/Cpp/Sky-Spectre/src/references.cpp" "CMakeFiles/chess_engine.dir/src/references.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/references.cpp.obj.d"
+  "C:/Stuff/Programming/Cpp/Sky-Spectre/src/search.cpp" "CMakeFiles/chess_engine.dir/src/search.cpp.obj" "gcc" "CMakeFiles/chess_engine.dir/src/search.cpp.obj.d"
   "" "chess_engine.exe" "gcc" "CMakeFiles/chess_engine.dir/link.d"
   )
 

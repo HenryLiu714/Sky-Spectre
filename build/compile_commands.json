@@ -1,38 +1,38 @@
 [
 {
   "directory": "C:/Stuff/Programming/Cpp/Sky-Spectre/build",
-  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\main.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\chess_engine3\\src\\main.cpp",
-  "file": "C:/Stuff/Programming/Cpp/chess_engine3/src/main.cpp",
+  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\main.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\src\\main.cpp",
+  "file": "C:/Stuff/Programming/Cpp/Sky-Spectre/src/main.cpp",
   "output": "CMakeFiles/chess_engine.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Stuff/Programming/Cpp/Sky-Spectre/build",
-  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\display.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\chess_engine3\\src\\display.cpp",
-  "file": "C:/Stuff/Programming/Cpp/chess_engine3/src/display.cpp",
+  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\display.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\src\\display.cpp",
+  "file": "C:/Stuff/Programming/Cpp/Sky-Spectre/src/display.cpp",
   "output": "CMakeFiles/chess_engine.dir/src/display.cpp.obj"
 },
 {
   "directory": "C:/Stuff/Programming/Cpp/Sky-Spectre/build",
-  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\moves.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\chess_engine3\\src\\moves.cpp",
-  "file": "C:/Stuff/Programming/Cpp/chess_engine3/src/moves.cpp",
+  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\moves.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\src\\moves.cpp",
+  "file": "C:/Stuff/Programming/Cpp/Sky-Spectre/src/moves.cpp",
   "output": "CMakeFiles/chess_engine.dir/src/moves.cpp.obj"
 },
 {
   "directory": "C:/Stuff/Programming/Cpp/Sky-Spectre/build",
-  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\references.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\chess_engine3\\src\\references.cpp",
-  "file": "C:/Stuff/Programming/Cpp/chess_engine3/src/references.cpp",
+  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\references.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\src\\references.cpp",
+  "file": "C:/Stuff/Programming/Cpp/Sky-Spectre/src/references.cpp",
   "output": "CMakeFiles/chess_engine.dir/src/references.cpp.obj"
 },
 {
   "directory": "C:/Stuff/Programming/Cpp/Sky-Spectre/build",
-  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\evaluation.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\chess_engine3\\src\\evaluation.cpp",
-  "file": "C:/Stuff/Programming/Cpp/chess_engine3/src/evaluation.cpp",
+  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\evaluation.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\src\\evaluation.cpp",
+  "file": "C:/Stuff/Programming/Cpp/Sky-Spectre/src/evaluation.cpp",
   "output": "CMakeFiles/chess_engine.dir/src/evaluation.cpp.obj"
 },
 {
   "directory": "C:/Stuff/Programming/Cpp/Sky-Spectre/build",
-  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\search.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\chess_engine3\\src\\search.cpp",
-  "file": "C:/Stuff/Programming/Cpp/chess_engine3/src/search.cpp",
+  "command": "C:\\Users\\awsom\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -o CMakeFiles\\chess_engine.dir\\src\\search.cpp.obj -c C:\\Stuff\\Programming\\Cpp\\Sky-Spectre\\src\\search.cpp",
+  "file": "C:/Stuff/Programming/Cpp/Sky-Spectre/src/search.cpp",
   "output": "CMakeFiles/chess_engine.dir/src/search.cpp.obj"
 },
 {

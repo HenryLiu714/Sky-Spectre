@@ -1,6 +1,6 @@
 CMakeFiles/chess_engine.dir/src/moves.cpp.obj: \
- C:\Stuff\Programming\Cpp\chess_engine3\src\moves.cpp \
- C:\Stuff\Programming\Cpp\chess_engine3\src\moves.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\moves.cpp \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\moves.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/vector \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/stl_algobase.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -45,7 +45,7 @@ CMakeFiles/chess_engine.dir/src/moves.cpp.obj: \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward/binders.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/range_access.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc \
- C:\Stuff\Programming\Cpp\chess_engine3\src\references.h \
+ C:\Stuff\Programming\Cpp\Sky-Spectre\src\references.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h \
  C:/Users/awsom/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cassert \
  C:/Users/awsom/mingw64/x86_64-w64-mingw32/include/assert.h \

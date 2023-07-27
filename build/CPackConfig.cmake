@@ -10,7 +10,7 @@
 # usually begin with CPACK_<GENNAME>_xxxx.
 
 
-set(CPACK_BUILD_SOURCE_DIRS "C:/Stuff/Programming/Cpp/chess_engine3;C:/Stuff/Programming/Cpp/Sky-Spectre/build")
+set(CPACK_BUILD_SOURCE_DIRS "C:/Stuff/Programming/Cpp/Sky-Spectre;C:/Stuff/Programming/Cpp/Sky-Spectre/build")
 set(CPACK_CMAKE_GENERATOR "MinGW Makefiles")
 set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
