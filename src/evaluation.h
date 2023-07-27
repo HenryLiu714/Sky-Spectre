@@ -135,12 +135,17 @@ namespace eval {
         -50,-30,-30,-30,-30,-30,-30,-50
     };
 
+    /**
+     * Function for initializing the hash function by generating
+     * pseudo-random numbers for use
+    */
     void initialize_hash();
 
     /**
      * Function used to evaluate a current board position where a positive number is beneficial to white and negative is 
      * good for black
      * 
+     * @param board The board being evaluated
      * @return Integer value denoting the evaluation score for a certain position on a chess board, where 
      * INT_MAX represents a checkmate for white and INT_MIN is a checkmate for black
     */

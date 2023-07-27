@@ -593,19 +593,37 @@ namespace re {
         }
     };
 
-    void initialize_knight_moves();
-
-    void initialize_king_moves();
-
     const u64 notAFile = 0xfefefefefefefefe; // ~0x0101010101010101
     const u64 notHFile = 0x7f7f7f7f7f7f7f7f; // ~0x8080808080808080
-
-    void initialize_sliding_moves();
     
+    /**
+     * Init all move lookup bitboards
+    */
     void intialize_move_lookups();
 
+    /**
+     * Get knight moves from a location
+     * 
+     * @param square The position of the knight
+     * @return A bitboard containing legal move locations
+    */
     u64 get_knight_bitmask(char square);
+
+    /**
+     * Gets king moves from a location
+     * 
+     * @param square The position of the king
+     * @return A bitboard with move positions
+    */
     u64 get_king_bitmask(char square);
+
+    /**
+     * Gets sliding moves from position
+     * 
+     * @param square The location of the piece
+     * @param direction The direction (NW, NE, etc.)
+     * @return Bitboard containing moves
+    */
     u64 get_sliding_bitmask(char square, char direction);
 
     // Other useful functions
@@ -614,11 +632,24 @@ namespace re {
      * Used to find the team
      * Example input: (W | PAWN)
      * Example return: W
+     * 
+     * @param piece The piece
+     * @return The team of the piece
     */
     char get_team(char piece); 
 
+    /**
+     * Debug function, prints the moves from a list of moves in viewable fashion
+     * 
+     * @param move_list A vector of moves to display
+    */
     void display_move_list(std::vector<Move> move_list);
 
+    /**
+     * Helper function to display a move
+     * 
+     * @param move The move to display
+    */
     void display_move(Move move);
 }
 
