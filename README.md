@@ -25,5 +25,7 @@ The moves file contains the procedure for generating legal moves.
 
 ### Files to change
 main.cpp can be edited to search at varying depths/times by following the comments provided
+
 evaluation.cpp - the evaluate function can be edited or replaced with any chess board evaluation function
+
 search.cpp - the searching functions can also be altered or added to, and are called from main.cpp
