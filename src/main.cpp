@@ -59,28 +59,12 @@ int main () {
         // Display pieces
         display::draw_board(board, chess_pieces);
 
-        // Display on click
-        //display::display_possible_moves_from_click(board);
-        // std::cout << moves::find_xray_attacks(
-        //     re::bitscan_forward(board.bitboards[board.current_turn | re:: KING]),
-        //     board.piece_locations[board.current_turn], 
-        //     board.all_piece_locations, 
-        //     board.bitboards[board.current_turn | re::BISHOP] | board.bitboards[board.current_turn | re:: QUEEN],
-        //     board.bitboards[board.current_turn | re::ROOK] | board.bitboards[board.current_turn | re:: QUEEN]
-        // ).size();
-
         if (counter == 0) {
-            auto t_start = std::chrono::high_resolution_clock::now();
+            // Change last parameter to change search depth (default: 3)
             re::Move move = search::search_depth(board, 3);
-
-            // auto t_end = std::chrono::high_resolution_clock::now();
-
-            // double elapsed_time_ms = std::chrono::duration<double, std::milli>(t_end-t_start).count();
-            // std::cout << elapsed_time_ms << "\n";
 
             if (move.to !=0 && move.from != 0) {
                 board.perform_move(move);
-                // re::display_move(move);
             }
             
             else {
@@ -90,6 +74,9 @@ int main () {
 
         counter++;
 
+        /**
+         * Change how often a move should be performed, 1 = 10ms, 2 = 20ms, etc.
+        */
         if (counter == 1) {
             counter = 0;
         }
